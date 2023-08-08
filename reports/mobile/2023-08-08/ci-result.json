@@ -1,0 +1,134 @@
+[
+  {
+    "path": "/",
+    "score": 0.98
+  },
+  {
+    "path": "/about/budget/",
+    "score": 0.84
+  },
+  {
+    "path": "/awards/about.jsp",
+    "score": 0.92
+  },
+  {
+    "path": "/awards/managing/award_conditions.jsp",
+    "score": 0.84
+  },
+  {
+    "path": "/bfa/",
+    "score": 0.87
+  },
+  {
+    "path": "/bfa/dias/policy/",
+    "score": 0.83
+  },
+  {
+    "path": "/bfa/dias/policy/guidance.jsp",
+    "score": 0.84
+  },
+  {
+    "path": "/bfa/dias/policy/merit_review/",
+    "score": 0.8
+  },
+  {
+    "path": "/bfa/dias/policy/meritreview/",
+    "score": 0.8
+  },
+  {
+    "path": "/dir/index.jsp",
+    "score": 0.81
+  },
+  {
+    "path": "/div/index.jsp",
+    "score": 0.89
+  },
+  {
+    "path": "/help/",
+    "score": 0.94
+  },
+  {
+    "path": "/news/mmg/index.jsp",
+    "score": 0.83
+  },
+  {
+    "path": "/news/newsroom.jsp",
+    "score": 0.89
+  },
+  {
+    "path": "/news/priority_areas/",
+    "score": 0.83
+  },
+  {
+    "path": "/news/search.jsp",
+    "score": 0.95
+  },
+  {
+    "path": "/news/speeches/",
+    "score": 0.92
+  },
+  {
+    "path": "/nsb/",
+    "score": 0.85
+  },
+  {
+    "path": "/od/",
+    "score": 0.92
+  },
+  {
+    "path": "/od/lpa/",
+    "score": 0.93
+  },
+  {
+    "path": "/od/oeo/nofear/nofearfinalcover.jsp",
+    "score": 0.93
+  },
+  {
+    "path": "/oirm/",
+    "score": 0.91
+  },
+  {
+    "path": "/policies/",
+    "score": 0.92
+  },
+  {
+    "path": "/policies/access.jsp",
+    "score": 0.92
+  },
+  {
+    "path": "/policies/conflicts.jsp",
+    "score": 0.92
+  },
+  {
+    "path": "/policies/foia.jsp",
+    "score": 0.92
+  },
+  {
+    "path": "/policies/links.jsp",
+    "score": 0.92
+  },
+  {
+    "path": "/policies/reuse.jsp",
+    "score": 0.92
+  },
+  {
+    "path": "/publications/",
+    "score": 0.96
+  },
+  {
+    "path": "/publications/obtain.jsp",
+    "score": 0.92
+  },
+  {
+    "path": "/publications/ods/",
+    "score": 0.96
+  },
+  {
+    "path": "/publications/pub_summ.jsp",
+    "score": 0.96
+  },
+  {
+    "path": "/staff/",
+    "score": 0.92
+  }
+]
