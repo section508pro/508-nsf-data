@@ -1,0 +1,592 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-182-INPUT",
+            "path": "1,HTML,2,BODY,0,DIV,0,DIV,5,TABLE,0,TBODY,2,TR,1,TD,0,TABLE,0,TBODY,1,TR,2,TD,0,DIV,0,DIV,1,FIELDSET,1,INPUT",
+            "selector": "div.header > div.search > fieldset > input#QueryText",
+            "boundingRect": {
+              "top": 79,
+              "bottom": 103,
+              "left": 669,
+              "right": 809,
+              "width": 140,
+              "height": 24
+            },
+            "snippet": "<input autocomplete=\"off\" class=\"usagov-search-autocomplete ui-autocomplete-input\" type=\"text\" name=\"query\" id=\"QueryText\" placeholder=\"SEARCH\">",
+            "nodeLabel": "div.header > div.search > fieldset > input#QueryText",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.22 (foreground color: #8c9090, background color: #ffffff, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-184-DIV",
+                  "path": "1,HTML,2,BODY,0,DIV,0,DIV,5,TABLE,0,TBODY,2,TR,1,TD,0,TABLE,0,TBODY,1,TR,2,TD,0,DIV,0,DIV",
+                  "selector": "tr > td > div.header > div.search",
+                  "boundingRect": {
+                    "top": 78,
+                    "bottom": 104,
+                    "left": 668,
+                    "right": 840,
+                    "width": 172,
+                    "height": 26
+                  },
+                  "snippet": "<div class=\"search\">",
+                  "nodeLabel": "Search"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-185-STRONG",
+            "path": "1,HTML,2,BODY,0,DIV,0,DIV,5,TABLE,0,TBODY,4,TR,1,TD,0,TABLE,0,TBODY,1,TR,1,TD,0,TABLE,0,TBODY,2,TR,0,TD,0,A,0,STRONG",
+            "selector": "tr > td.lefttext > a > strong",
+            "boundingRect": {
+              "top": 295,
+              "bottom": 307,
+              "left": 128,
+              "right": 159,
+              "width": 31,
+              "height": 12
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "News",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.02 (foreground color: #3c75cf, background color: #eef2f7, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-186-TD",
+                  "path": "1,HTML,2,BODY,0,DIV,0,DIV,5,TABLE,0,TBODY,4,TR,1,TD,0,TABLE,0,TBODY,1,TR,1,TD,0,TABLE,0,TBODY,2,TR,0,TD",
+                  "selector": "table > tbody > tr > td.lefttext",
+                  "boundingRect": {
+                    "top": 290,
+                    "bottom": 312,
+                    "left": 121,
+                    "right": 319,
+                    "width": 198,
+                    "height": 22
+                  },
+                  "snippet": "<td class=\"lefttext\">",
+                  "nodeLabel": "News"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-84-A",
+            "path": "1,HTML,2,BODY,0,DIV,0,DIV,5,TABLE,0,TBODY,4,TR,1,TD,0,TABLE,0,TBODY,1,TR,1,TD,0,TABLE,0,TBODY,4,TR,0,TD,0,STRONG,0,A",
+            "selector": "tr > td.lefttext > strong > a",
+            "boundingRect": {
+              "top": 318,
+              "bottom": 330,
+              "left": 128,
+              "right": 243,
+              "width": 115,
+              "height": 12
+            },
+            "snippet": "<a href=\"/news/news_list.cfm?nt=12\">",
+            "nodeLabel": "News From the Field",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.02 (foreground color: #3c75cf, background color: #eef2f7, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-187-TD",
+                  "path": "1,HTML,2,BODY,0,DIV,0,DIV,5,TABLE,0,TBODY,4,TR,1,TD,0,TABLE,0,TBODY,1,TR,1,TD,0,TABLE,0,TBODY,4,TR,0,TD",
+                  "selector": "table > tbody > tr > td.lefttext",
+                  "boundingRect": {
+                    "top": 313,
+                    "bottom": 335,
+                    "left": 121,
+                    "right": 319,
+                    "width": 198,
+                    "height": 22
+                  },
+                  "snippet": "<td class=\"lefttext\">",
+                  "nodeLabel": "News From the Field"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-188-STRONG",
+            "path": "1,HTML,2,BODY,0,DIV,0,DIV,5,TABLE,0,TBODY,4,TR,1,TD,0,TABLE,0,TBODY,1,TR,1,TD,0,TABLE,0,TBODY,6,TR,0,TD,0,A,0,STRONG",
+            "selector": "tr > td.lefttext > a > strong",
+            "boundingRect": {
+              "top": 341,
+              "bottom": 353,
+              "left": 128,
+              "right": 239,
+              "width": 111,
+              "height": 12
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "For the News Media",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.02 (foreground color: #3c75cf, background color: #eef2f7, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-189-TD",
+                  "path": "1,HTML,2,BODY,0,DIV,0,DIV,5,TABLE,0,TBODY,4,TR,1,TD,0,TABLE,0,TBODY,1,TR,1,TD,0,TABLE,0,TBODY,6,TR,0,TD",
+                  "selector": "table > tbody > tr > td.lefttext",
+                  "boundingRect": {
+                    "top": 336,
+                    "bottom": 358,
+                    "left": 121,
+                    "right": 319,
+                    "width": 198,
+                    "height": 22
+                  },
+                  "snippet": "<td class=\"lefttext\">",
+                  "nodeLabel": "For the News Media"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-190-STRONG",
+            "path": "1,HTML,2,BODY,0,DIV,0,DIV,5,TABLE,0,TBODY,4,TR,1,TD,0,TABLE,0,TBODY,1,TR,1,TD,0,TABLE,0,TBODY,8,TR,0,TD,0,A,0,STRONG",
+            "selector": "tr > td.lefttext > a > strong",
+            "boundingRect": {
+              "top": 364,
+              "bottom": 376,
+              "left": 128,
+              "right": 215,
+              "width": 87,
+              "height": 12
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "Special Reports",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.02 (foreground color: #3c75cf, background color: #eef2f7, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-191-TD",
+                  "path": "1,HTML,2,BODY,0,DIV,0,DIV,5,TABLE,0,TBODY,4,TR,1,TD,0,TABLE,0,TBODY,1,TR,1,TD,0,TABLE,0,TBODY,8,TR,0,TD",
+                  "selector": "table > tbody > tr > td.lefttext",
+                  "boundingRect": {
+                    "top": 359,
+                    "bottom": 381,
+                    "left": 121,
+                    "right": 319,
+                    "width": 198,
+                    "height": 22
+                  },
+                  "snippet": "<td class=\"lefttext\">",
+                  "nodeLabel": "Special Reports"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-87-A",
+            "path": "1,HTML,2,BODY,0,DIV,0,DIV,5,TABLE,0,TBODY,4,TR,1,TD,0,TABLE,0,TBODY,1,TR,1,TD,0,TABLE,0,TBODY,10,TR,0,TD,0,STRONG,0,A",
+            "selector": "tr > td.lefttext > strong > a",
+            "boundingRect": {
+              "top": 387,
+              "bottom": 399,
+              "left": 128,
+              "right": 242,
+              "width": 114,
+              "height": 12
+            },
+            "snippet": "<a href=\"/news/overviews/\">",
+            "nodeLabel": "Research Overviews",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.02 (foreground color: #3c75cf, background color: #eef2f7, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-192-TD",
+                  "path": "1,HTML,2,BODY,0,DIV,0,DIV,5,TABLE,0,TBODY,4,TR,1,TD,0,TABLE,0,TBODY,1,TR,1,TD,0,TABLE,0,TBODY,10,TR,0,TD",
+                  "selector": "table > tbody > tr > td.lefttext",
+                  "boundingRect": {
+                    "top": 382,
+                    "bottom": 404,
+                    "left": 121,
+                    "right": 319,
+                    "width": 198,
+                    "height": 22
+                  },
+                  "snippet": "<td class=\"lefttext\">",
+                  "nodeLabel": "Research Overviews"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-193-STRONG",
+            "path": "1,HTML,2,BODY,0,DIV,0,DIV,5,TABLE,0,TBODY,4,TR,1,TD,0,TABLE,0,TBODY,1,TR,1,TD,0,TABLE,0,TBODY,14,TR,0,TD,0,A,0,STRONG",
+            "selector": "tr > td.lefttext > a > strong",
+            "boundingRect": {
+              "top": 433,
+              "bottom": 445,
+              "left": 128,
+              "right": 245,
+              "width": 117,
+              "height": 12
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "Speeches & Lectures",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.02 (foreground color: #3c75cf, background color: #eef2f7, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-194-TD",
+                  "path": "1,HTML,2,BODY,0,DIV,0,DIV,5,TABLE,0,TBODY,4,TR,1,TD,0,TABLE,0,TBODY,1,TR,1,TD,0,TABLE,0,TBODY,14,TR,0,TD",
+                  "selector": "table > tbody > tr > td.lefttext",
+                  "boundingRect": {
+                    "top": 428,
+                    "bottom": 450,
+                    "left": 121,
+                    "right": 319,
+                    "width": 198,
+                    "height": 22
+                  },
+                  "snippet": "<td class=\"lefttext\">",
+                  "nodeLabel": "Speeches & Lectures"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-195-STRONG",
+            "path": "1,HTML,2,BODY,0,DIV,0,DIV,5,TABLE,0,TBODY,4,TR,1,TD,0,TABLE,0,TBODY,1,TR,1,TD,0,TABLE,0,TBODY,16,TR,0,TD,0,A,0,STRONG",
+            "selector": "tr > td.lefttext > a > strong",
+            "boundingRect": {
+              "top": 456,
+              "bottom": 468,
+              "left": 128,
+              "right": 273,
+              "width": 145,
+              "height": 12
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "NSF Director's Newsletter",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.02 (foreground color: #3c75cf, background color: #eef2f7, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-196-TD",
+                  "path": "1,HTML,2,BODY,0,DIV,0,DIV,5,TABLE,0,TBODY,4,TR,1,TD,0,TABLE,0,TBODY,1,TR,1,TD,0,TABLE,0,TBODY,16,TR,0,TD",
+                  "selector": "table > tbody > tr > td.lefttext",
+                  "boundingRect": {
+                    "top": 451,
+                    "bottom": 473,
+                    "left": 121,
+                    "right": 319,
+                    "width": 198,
+                    "height": 22
+                  },
+                  "snippet": "<td class=\"lefttext\">",
+                  "nodeLabel": "NSF Director's Newsletter"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-197-STRONG",
+            "path": "1,HTML,2,BODY,0,DIV,0,DIV,5,TABLE,0,TBODY,4,TR,1,TD,0,TABLE,0,TBODY,1,TR,1,TD,0,TABLE,0,TBODY,18,TR,0,TD,0,A,0,STRONG",
+            "selector": "tr > td.lefttext > a > strong",
+            "boundingRect": {
+              "top": 479,
+              "bottom": 491,
+              "left": 128,
+              "right": 233,
+              "width": 105,
+              "height": 12
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "Multimedia Gallery",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.02 (foreground color: #3c75cf, background color: #eef2f7, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-198-TD",
+                  "path": "1,HTML,2,BODY,0,DIV,0,DIV,5,TABLE,0,TBODY,4,TR,1,TD,0,TABLE,0,TBODY,1,TR,1,TD,0,TABLE,0,TBODY,18,TR,0,TD",
+                  "selector": "table > tbody > tr > td.lefttext",
+                  "boundingRect": {
+                    "top": 474,
+                    "bottom": 496,
+                    "left": 121,
+                    "right": 319,
+                    "width": 198,
+                    "height": 22
+                  },
+                  "snippet": "<td class=\"lefttext\">",
+                  "nodeLabel": "Multimedia Gallery"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-199-STRONG",
+            "path": "1,HTML,2,BODY,0,DIV,0,DIV,5,TABLE,0,TBODY,4,TR,1,TD,0,TABLE,0,TBODY,1,TR,1,TD,0,TABLE,0,TBODY,20,TR,0,TD,0,A,0,STRONG",
+            "selector": "tr > td.lefttext > a > strong",
+            "boundingRect": {
+              "top": 502,
+              "bottom": 514,
+              "left": 128,
+              "right": 205,
+              "width": 77,
+              "height": 12
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "News Archive",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.02 (foreground color: #3c75cf, background color: #eef2f7, font size: 7.5pt (10px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-200-TD",
+                  "path": "1,HTML,2,BODY,0,DIV,0,DIV,5,TABLE,0,TBODY,4,TR,1,TD,0,TABLE,0,TBODY,1,TR,1,TD,0,TABLE,0,TBODY,20,TR,0,TD",
+                  "selector": "table > tbody > tr > td.lefttext",
+                  "boundingRect": {
+                    "top": 497,
+                    "bottom": 519,
+                    "left": 121,
+                    "right": 319,
+                    "width": 198,
+                    "height": 22
+                  },
+                  "snippet": "<td class=\"lefttext\">",
+                  "nodeLabel": "News Archive"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-201-STRONG",
+            "path": "1,HTML,2,BODY,0,DIV,0,DIV,5,TABLE,0,TBODY,4,TR,1,TD,0,TABLE,0,TBODY,1,TR,4,TD,13,P,0,STRONG",
+            "selector": "tr > td.text > p > strong.greybold",
+            "boundingRect": {
+              "top": 3944,
+              "bottom": 3962,
+              "left": 338,
+              "right": 798,
+              "width": 460,
+              "height": 18
+            },
+            "snippet": "<strong class=\"greybold\">",
+            "nodeLabel": "NSF-WIDE INVESTMENTS IN PREVIOUS BUDGET YEARS",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.84 (foreground color: #999999, background color: #ffffff, font size: 11.0pt (14.7285px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-202-TD",
+                  "path": "1,HTML,2,BODY,0,DIV,0,DIV,5,TABLE,0,TBODY,4,TR,1,TD,0,TABLE,0,TBODY,1,TR,4,TD",
+                  "selector": "table > tbody > tr > td.text",
+                  "boundingRect": {
+                    "top": 161,
+                    "bottom": 4068,
+                    "left": 338,
+                    "right": 847,
+                    "width": 509,
+                    "height": 3907
+                  },
+                  "snippet": "<td bgcolor=\"#ffffff\" class=\"text\" valign=\"top\" width=\"516\">",
+                  "nodeLabel": "\nNSF-Wide Investments\n\n\nThe National Science Foundation's (NSF) fiscal year (FY…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-203-SPAN",
+            "path": "1,HTML,2,BODY,0,DIV,0,DIV,5,TABLE,0,TBODY,4,TR,1,TD,0,TABLE,0,TBODY,3,TR,4,TD,1,DIV,0,SPAN",
+            "selector": "tr > td#printFriendly3 > div.social-nav > span.social-nav-title",
+            "boundingRect": {
+              "top": 4110,
+              "bottom": 4130,
+              "left": 539,
+              "right": 598,
+              "width": 59,
+              "height": 20
+            },
+            "snippet": "<span class=\"social-nav-title\">",
+            "nodeLabel": "FOLLOW US",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 2.22 (foreground color: #01bced, background color: #ffffff, font size: 7.5pt (10px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-204-TD",
+                  "path": "1,HTML,2,BODY,0,DIV,0,DIV,5,TABLE,0,TBODY,4,TR,1,TD,0,TABLE,0,TBODY,3,TR,4,TD",
+                  "selector": "table > tbody > tr > td#printFriendly3",
+                  "boundingRect": {
+                    "top": 4101,
+                    "bottom": 4164,
+                    "left": 338,
+                    "right": 859,
+                    "width": 521,
+                    "height": 63
+                  },
+                  "snippet": "<td id=\"printFriendly3\" colspan=\"2\" bgcolor=\"#ffffff\">",
+                  "nodeLabel": "Take our Customer Satisfaction Survey\nFOLLOW US\n \n \n \nSee all NSF social media"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 12
+  },
+  {
+    "id": "html-has-lang",
+    "title": "`<html>` element does not have a `[lang]` attribute",
+    "description": "If a page doesn't specify a lang attribute, a screen reader assumes that the page is in the default language that the user chose when setting up the screen reader. If the page isn't actually in the default language, then the screen reader might not announce the page's text correctly. [Learn more](https://web.dev/html-has-lang/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-205-HTML",
+            "path": "1,HTML",
+            "selector": "html.js",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 4456,
+              "left": 0,
+              "right": 980,
+              "width": 980,
+              "height": 4456
+            },
+            "snippet": "<html xmlns=\"http://www.w3.org/1999/xhtml\" class=\" js flexbox canvas canvastext webgl touch geolocation postmessage websqlda…\">",
+            "nodeLabel": "html.js",
+            "explanation": "Fix any of the following:\n  The <html> element does not have a lang attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.language",
+          "wcag2a",
+          "wcag311",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

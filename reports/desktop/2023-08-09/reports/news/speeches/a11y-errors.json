@@ -1,0 +1,77 @@
+[
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-190-UL",
+            "path": "2,HTML,1,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL",
+            "selector": "div.row > div#leftnavdividcontainer > div#leftnavdivid > ul.nav",
+            "boundingRect": {
+              "top": 197,
+              "bottom": 811,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 614
+            },
+            "snippet": "<ul class=\"nav nav-stacked left-nav\">",
+            "nodeLabel": "News\nquick access\nFind News\nFor News Media\nMedia Advisories\nMultimedia Gallery\n…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-191-UL",
+                  "path": "2,HTML,1,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,10,UL",
+                  "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > ul.dropdown-list",
+                  "boundingRect": {
+                    "top": 566,
+                    "bottom": 811,
+                    "left": 65,
+                    "right": 368,
+                    "width": 303,
+                    "height": 245
+                  },
+                  "snippet": "<ul class=\"dropdown-list\">",
+                  "nodeLabel": "Speeches and Presentations by the NSF Director\nSpeeches and Presentations by th…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

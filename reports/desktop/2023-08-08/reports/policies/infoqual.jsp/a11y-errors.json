@@ -1,0 +1,320 @@
+[
+  {
+    "id": "aria-required-parent",
+    "title": "`[role]`s are not contained by their required parent element",
+    "description": "Some ARIA child roles must be contained by specific parent roles to properly perform their intended accessibility functions. [Learn more](https://web.dev/aria-required-parent/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-191-LI",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,2,LI",
+            "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > li",
+            "boundingRect": {
+              "top": 257,
+              "bottom": 298,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 41
+            },
+            "snippet": "<li role=\"menuitem\">",
+            "nodeLabel": "Web Policies and Important Links",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: menu, menubar, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-192-LI",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,3,LI",
+            "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > li.current",
+            "boundingRect": {
+              "top": 298,
+              "bottom": 339,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 41
+            },
+            "snippet": "<li role=\"menuitem\" class=\"current\">",
+            "nodeLabel": "Quality Standards",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: menu, menubar, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-193-LI",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,4,LI",
+            "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > li",
+            "boundingRect": {
+              "top": 339,
+              "bottom": 380,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 41
+            },
+            "snippet": "<li role=\"menuitem\">",
+            "nodeLabel": "Conflicts of Interest",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: menu, menubar, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-194-LI",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,5,LI",
+            "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > li",
+            "boundingRect": {
+              "top": 380,
+              "bottom": 441,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 61
+            },
+            "snippet": "<li role=\"menuitem\">",
+            "nodeLabel": "Copyright and Reuse of Visual Media and Text",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: menu, menubar, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-195-LI",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,6,LI",
+            "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > li",
+            "boundingRect": {
+              "top": 441,
+              "bottom": 482,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 41
+            },
+            "snippet": "<li role=\"menuitem\">",
+            "nodeLabel": "Use of NSF Logos",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: menu, menubar, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-196-LI",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,8,LI",
+            "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > li",
+            "boundingRect": {
+              "top": 543,
+              "bottom": 584,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 41
+            },
+            "snippet": "<li role=\"menuitem\">",
+            "nodeLabel": "Links to External Sites",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: menu, menubar, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-197-LI",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,9,LI",
+            "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > li",
+            "boundingRect": {
+              "top": 584,
+              "bottom": 625,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 41
+            },
+            "snippet": "<li role=\"menuitem\">",
+            "nodeLabel": "Privacy Policy",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: menu, menubar, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-198-LI",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,10,LI",
+            "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > li",
+            "boundingRect": {
+              "top": 625,
+              "bottom": 666,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 41
+            },
+            "snippet": "<li role=\"menuitem\">",
+            "nodeLabel": "Privacy Program",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: menu, menubar, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-199-LI",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,11,LI",
+            "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > li",
+            "boundingRect": {
+              "top": 666,
+              "bottom": 707,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 41
+            },
+            "snippet": "<li role=\"menuitem\">",
+            "nodeLabel": "Web Accessibility",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: menu, menubar, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-200-LI",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,12,LI",
+            "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > li",
+            "boundingRect": {
+              "top": 707,
+              "bottom": 748,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 41
+            },
+            "snippet": "<li role=\"menuitem\">",
+            "nodeLabel": "No FEAR Act Data",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: menu, menubar, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-201-LI",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,13,LI",
+            "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > li",
+            "boundingRect": {
+              "top": 748,
+              "bottom": 789,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 41
+            },
+            "snippet": "<li role=\"menuitem\">",
+            "nodeLabel": "e-Gov Initiatives",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: menu, menubar, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-202-LI",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,14,LI",
+            "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > li",
+            "boundingRect": {
+              "top": 789,
+              "bottom": 830,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 41
+            },
+            "snippet": "<li role=\"menuitem\">",
+            "nodeLabel": "e-Gov Content Inventory",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: menu, menubar, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-203-LI",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,15,LI",
+            "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > li",
+            "boundingRect": {
+              "top": 830,
+              "bottom": 871,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 41
+            },
+            "snippet": "<li role=\"menuitem\">",
+            "nodeLabel": "Performance Assessment",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: menu, menubar, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-204-LI",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,17,LI",
+            "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > li",
+            "boundingRect": {
+              "top": 912,
+              "bottom": 953,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 41
+            },
+            "snippet": "<li role=\"menuitem\">",
+            "nodeLabel": "Plain Language",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: menu, menubar, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-205-LI",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,18,LI",
+            "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > li",
+            "boundingRect": {
+              "top": 953,
+              "bottom": 1014,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 61
+            },
+            "snippet": "<li role=\"menuitem\">",
+            "nodeLabel": "Domain-based Messaging and Reporting Compliance (DMARC)",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: menu, menubar, group"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 15
+  }
+]

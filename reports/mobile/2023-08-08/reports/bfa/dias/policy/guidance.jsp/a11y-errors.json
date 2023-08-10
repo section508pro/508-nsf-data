@@ -1,0 +1,155 @@
+[
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-205-UL",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,2,DIV,1,DIV,3,UL",
+            "selector": "div.row > div#content > div#inner-content > ul",
+            "boundingRect": {
+              "top": 393,
+              "bottom": 1153,
+              "left": 19,
+              "right": 393,
+              "width": 374,
+              "height": 760
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "2 CFR 2500, Uniform Administrative Requirements, Cost Principles, and Audit Req…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-209-BR",
+                  "path": "1,HTML,2,BODY,7,DIV,1,DIV,2,DIV,1,DIV,3,UL,1,BR",
+                  "selector": "div#content > div#inner-content > ul > br",
+                  "boundingRect": {
+                    "top": 455,
+                    "bottom": 471,
+                    "left": 59,
+                    "right": 59,
+                    "width": 0,
+                    "height": 16
+                  },
+                  "snippet": "<br>",
+                  "nodeLabel": "div#content > div#inner-content > ul > br"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-210-BR",
+                  "path": "1,HTML,2,BODY,7,DIV,1,DIV,2,DIV,1,DIV,3,UL,3,BR",
+                  "selector": "div#content > div#inner-content > ul > br",
+                  "boundingRect": {
+                    "top": 535,
+                    "bottom": 551,
+                    "left": 59,
+                    "right": 59,
+                    "width": 0,
+                    "height": 16
+                  },
+                  "snippet": "<br>",
+                  "nodeLabel": "div#content > div#inner-content > ul > br"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-211-BR",
+                  "path": "1,HTML,2,BODY,7,DIV,1,DIV,2,DIV,1,DIV,3,UL,5,BR",
+                  "selector": "div#content > div#inner-content > ul > br",
+                  "boundingRect": {
+                    "top": 595,
+                    "bottom": 611,
+                    "left": 59,
+                    "right": 59,
+                    "width": 0,
+                    "height": 16
+                  },
+                  "snippet": "<br>",
+                  "nodeLabel": "div#content > div#inner-content > ul > br"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-212-UL",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,2,DIV,1,DIV,5,UL",
+            "selector": "div.row > div#content > div#inner-content > ul",
+            "boundingRect": {
+              "top": 1183,
+              "bottom": 1263,
+              "left": 19,
+              "right": 393,
+              "width": 374,
+              "height": 80
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "Proposal and Award Policies and Procedures Guide\nGrant Proposal Guide (GPG)\nAwa…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-213-UL",
+                  "path": "1,HTML,2,BODY,7,DIV,1,DIV,2,DIV,1,DIV,5,UL,1,UL",
+                  "selector": "div#content > div#inner-content > ul > ul",
+                  "boundingRect": {
+                    "top": 1203,
+                    "bottom": 1243,
+                    "left": 59,
+                    "right": 393,
+                    "width": 334,
+                    "height": 40
+                  },
+                  "snippet": "<ul>",
+                  "nodeLabel": "Grant Proposal Guide (GPG)\nAward & Administration Guide (AAG)"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "id": "duplicate-id-aria",
+    "title": "ARIA IDs are not unique",
+    "description": "The value of an ARIA ID must be unique to prevent other instances from being overlooked by assistive technologies. [Learn more](https://web.dev/duplicate-id-aria/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-228-H2",
+            "path": "2,HTML,1,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,H2",
+            "selector": "div.row > div#leftnavdividcontainer > div#leftnavdivid > h2#leftNav_title",
+            "boundingRect": {
+              "top": 177,
+              "bottom": 227,
+              "left": 0,
+              "right": 412,
+              "width": 412,
+              "height": 50
+            },
+            "snippet": "<h2 id=\"leftNav_title\" data-toggle=\"collapse\" href=\"#collapseNav\" aria-expanded=\"false\" aria-controls=\"collapseNav\">",
+            "nodeLabel": "Biological Sciences (BIO)",
+            "explanation": "Fix any of the following:\n  Document has multiple elements referenced with ARIA with the same id attribute: leftNav_title"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-229-H2",
+                  "path": "2,HTML,1,BODY,7,DIV,1,DIV,0,DIV,0,DIV,1,UL,0,LI,0,H2",
+                  "selector": "div#leftnavdivid > ul#collapseNav > li > h2#leftNav_title",
+                  "boundingRect": {
+                    "top": 0,
+                    "bottom": 0,
+                    "left": 0,
+                    "right": 0,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<h2 id=\"leftNav_title\">",
+                  "nodeLabel": "Biological Sciences (BIO)\n                    "
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.parsing",
+          "wcag2a",
+          "wcag411"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-230-UL",
+            "path": "2,HTML,1,BODY,7,DIV,1,DIV,1,DIV,1,DIV,2,DIV,0,DIV,0,DIV,4,UL",
+            "selector": "div.row > div.col-sm-5 > div.panel > ul.list-group",
+            "boundingRect": {
+              "top": 602,
+              "bottom": 810,
+              "left": 17,
+              "right": 395,
+              "width": 378,
+              "height": 208
+            },
+            "snippet": "<ul class=\"list-group\">",
+            "nodeLabel": "FAQs on Safe and Inclusive Work Environments Posted Read More ›\nUpdate on NSF P…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-231-DIV",
+                  "path": "2,HTML,1,BODY,7,DIV,1,DIV,1,DIV,1,DIV,2,DIV,0,DIV,0,DIV,4,UL,3,DIV",
+                  "selector": "div.col-sm-5 > div.panel > ul.list-group > div.panel-footer",
+                  "boundingRect": {
+                    "top": 774,
+                    "bottom": 810,
+                    "left": 32,
+                    "right": 380,
+                    "width": 348,
+                    "height": 36
+                  },
+                  "snippet": "<div class=\"panel-footer\">",
+                  "nodeLabel": "See All ›\nAnnouncements"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

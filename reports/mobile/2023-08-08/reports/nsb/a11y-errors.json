@@ -1,0 +1,1326 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-1-A",
+            "path": "1,HTML,2,BODY,0,DIV,1,DIV,2,DIV,3,DIV,0,DIV,0,DIV,2,P,0,A",
+            "selector": "div.container > div.carousel-caption > p > a.btn",
+            "boundingRect": {
+              "top": 186,
+              "bottom": 220,
+              "left": 157,
+              "right": 255,
+              "width": 98,
+              "height": 34
+            },
+            "snippet": "<a href=\"https://ncses.nsf.gov/pubs/nsb20221\" class=\"btn btn-primary\" role=\"button\">",
+            "nodeLabel": "Learn More",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.63 (foreground color: #ffffff, background color: #428bca, font size: 10.5pt (14px), font weight: normal). Expected contrast ratio of 4.5:1"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-88-A",
+            "path": "1,HTML,2,BODY,0,DIV,7,DIV,0,DIV,0,DIV,0,DIV,1,DIV,0,DIV,0,DIV,0,H4,0,A",
+            "selector": "div#feature > div.caption > h4.feature > a",
+            "boundingRect": {
+              "top": 545,
+              "bottom": 599,
+              "left": 39,
+              "right": 368,
+              "width": 329,
+              "height": 54
+            },
+            "snippet": "<a href=\"/nsb/news/news_summ.jsp?cntn_id=306053\">",
+            "nodeLabel": "National Science Board Statement on Sexual Harassment and Misconduct in U.S. An…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.63 (foreground color: #428bca, background color: #ffffff, font size: 12.0pt (16px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-191-DIV",
+                  "path": "1,HTML,2,BODY,0,DIV,7,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.newsmeetingsection > div.row > div.col-xs-12 > div.panel",
+                  "boundingRect": {
+                    "top": 472,
+                    "bottom": 1025,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 553
+                  },
+                  "snippet": "<div class=\"panel panel-default\">",
+                  "nodeLabel": "News\nNational Science Board Statement on Sexual Harassment and Misconduct in U.…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-90-A",
+            "path": "1,HTML,2,BODY,0,DIV,7,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,UL,0,LI,0,A",
+            "selector": "div.panel-body > ul > li > a",
+            "boundingRect": {
+              "top": 823,
+              "bottom": 864,
+              "left": 76,
+              "right": 313,
+              "width": 237,
+              "height": 41
+            },
+            "snippet": "<a href=\"/nsb/news/news_summ.jsp?cntn_id=307749&amp;org=NSB&amp;from=news\">",
+            "nodeLabel": "Reexamining NSF’s Merit Review Process",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.63 (foreground color: #428bca, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-191-DIV",
+                  "path": "1,HTML,2,BODY,0,DIV,7,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.newsmeetingsection > div.row > div.col-xs-12 > div.panel",
+                  "boundingRect": {
+                    "top": 472,
+                    "bottom": 1025,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 553
+                  },
+                  "snippet": "<div class=\"panel panel-default\">",
+                  "nodeLabel": "News\nNational Science Board Statement on Sexual Harassment and Misconduct in U.…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-91-A",
+            "path": "1,HTML,2,BODY,0,DIV,7,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,UL,1,LI,0,A",
+            "selector": "div.panel-body > ul > li > a",
+            "boundingRect": {
+              "top": 873,
+              "bottom": 915,
+              "left": 76,
+              "right": 339,
+              "width": 263,
+              "height": 41
+            },
+            "snippet": "<a href=\"/nsb/news/news_summ.jsp?cntn_id=307818&amp;org=NSB&amp;from=news\">",
+            "nodeLabel": "New Report Details Recent Trends in NSF Awards",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.63 (foreground color: #428bca, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-191-DIV",
+                  "path": "1,HTML,2,BODY,0,DIV,7,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.newsmeetingsection > div.row > div.col-xs-12 > div.panel",
+                  "boundingRect": {
+                    "top": 472,
+                    "bottom": 1025,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 553
+                  },
+                  "snippet": "<div class=\"panel panel-default\">",
+                  "nodeLabel": "News\nNational Science Board Statement on Sexual Harassment and Misconduct in U.…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-92-A",
+            "path": "1,HTML,2,BODY,0,DIV,7,DIV,0,DIV,0,DIV,0,DIV,1,DIV,1,UL,2,LI,0,A",
+            "selector": "div.panel-body > ul > li > a",
+            "boundingRect": {
+              "top": 924,
+              "bottom": 965,
+              "left": 76,
+              "right": 369,
+              "width": 293,
+              "height": 41
+            },
+            "snippet": "<a href=\"/nsb/news/news_summ.jsp?cntn_id=307398&amp;org=NSB&amp;from=news\">",
+            "nodeLabel": "National Science Board will hold a hybrid meeting May 9 – 10, 2023",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.63 (foreground color: #428bca, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-191-DIV",
+                  "path": "1,HTML,2,BODY,0,DIV,7,DIV,0,DIV,0,DIV,0,DIV",
+                  "selector": "div.newsmeetingsection > div.row > div.col-xs-12 > div.panel",
+                  "boundingRect": {
+                    "top": 472,
+                    "bottom": 1025,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 553
+                  },
+                  "snippet": "<div class=\"panel panel-default\">",
+                  "nodeLabel": "News\nNational Science Board Statement on Sexual Harassment and Misconduct in U.…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-96-A",
+            "path": "1,HTML,2,BODY,0,DIV,7,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,UL,0,LI,1,DIV,1,P,0,A",
+            "selector": "li.media > div.media-body > p > a",
+            "boundingRect": {
+              "top": 1133,
+              "bottom": 1197,
+              "left": 91,
+              "right": 347,
+              "width": 256,
+              "height": 64
+            },
+            "snippet": "<a href=\"/nsb/meetings/event_summ.jsp?cntn_id=307977\">",
+            "nodeLabel": "National Science Board NSB-NSF Commission on Merit Review (MRX) Teleconference …",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.63 (foreground color: #428bca, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-192-DIV",
+                  "path": "1,HTML,2,BODY,0,DIV,7,DIV,0,DIV,1,DIV,0,DIV",
+                  "selector": "div.newsmeetingsection > div.row > div.col-xs-12 > div.panel",
+                  "boundingRect": {
+                    "top": 1045,
+                    "bottom": 1597,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 553
+                  },
+                  "snippet": "<div class=\"panel panel-default\">",
+                  "nodeLabel": "Meetings\nAugust 9, 2023\n\nNational Science Board NSB-NSF Commission on Merit Rev…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-97-A",
+            "path": "1,HTML,2,BODY,0,DIV,7,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,UL,0,LI,1,DIV,3,P,2,A",
+            "selector": "li.media > div.media-body > p > a",
+            "boundingRect": {
+              "top": 1244,
+              "bottom": 1263,
+              "left": 103,
+              "right": 311,
+              "width": 208,
+              "height": 19
+            },
+            "snippet": "<a href=\"https://www.nsf.gov/nsb/meetings/2023/0809/meeting.pdf\">",
+            "nodeLabel": "Sunshine Act Meeting Notice",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.63 (foreground color: #428bca, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-192-DIV",
+                  "path": "1,HTML,2,BODY,0,DIV,7,DIV,0,DIV,1,DIV,0,DIV",
+                  "selector": "div.newsmeetingsection > div.row > div.col-xs-12 > div.panel",
+                  "boundingRect": {
+                    "top": 1045,
+                    "bottom": 1597,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 553
+                  },
+                  "snippet": "<div class=\"panel panel-default\">",
+                  "nodeLabel": "Meetings\nAugust 9, 2023\n\nNational Science Board NSB-NSF Commission on Merit Rev…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-98-A",
+            "path": "1,HTML,2,BODY,0,DIV,7,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,UL,0,LI,1,DIV,3,P,5,A",
+            "selector": "li.media > div.media-body > p > a",
+            "boundingRect": {
+              "top": 1267,
+              "bottom": 1286,
+              "left": 91,
+              "right": 212,
+              "width": 121,
+              "height": 19
+            },
+            "snippet": "<a href=\"https://www.nsf.gov/nsb/meetings/2023/0809/closing.pdf\">",
+            "nodeLabel": "Basis for Closing",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.63 (foreground color: #428bca, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-192-DIV",
+                  "path": "1,HTML,2,BODY,0,DIV,7,DIV,0,DIV,1,DIV,0,DIV",
+                  "selector": "div.newsmeetingsection > div.row > div.col-xs-12 > div.panel",
+                  "boundingRect": {
+                    "top": 1045,
+                    "bottom": 1597,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 553
+                  },
+                  "snippet": "<div class=\"panel panel-default\">",
+                  "nodeLabel": "Meetings\nAugust 9, 2023\n\nNational Science Board NSB-NSF Commission on Merit Rev…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-100-A",
+            "path": "1,HTML,2,BODY,0,DIV,7,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,UL,1,LI,1,DIV,1,P,0,A",
+            "selector": "li.media > div.media-body > p > a",
+            "boundingRect": {
+              "top": 1338,
+              "bottom": 1356,
+              "left": 91,
+              "right": 321,
+              "width": 231,
+              "height": 19
+            },
+            "snippet": "<a href=\"/nsb/meetings/event_summ.jsp?cntn_id=306558\">",
+            "nodeLabel": "National Science Board Meeting",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.63 (foreground color: #428bca, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-192-DIV",
+                  "path": "1,HTML,2,BODY,0,DIV,7,DIV,0,DIV,1,DIV,0,DIV",
+                  "selector": "div.newsmeetingsection > div.row > div.col-xs-12 > div.panel",
+                  "boundingRect": {
+                    "top": 1045,
+                    "bottom": 1597,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 553
+                  },
+                  "snippet": "<div class=\"panel panel-default\">",
+                  "nodeLabel": "Meetings\nAugust 9, 2023\n\nNational Science Board NSB-NSF Commission on Merit Rev…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-102-A",
+            "path": "1,HTML,2,BODY,0,DIV,7,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,UL,2,LI,1,DIV,1,P,0,A",
+            "selector": "li.media > div.media-body > p > a",
+            "boundingRect": {
+              "top": 1441,
+              "bottom": 1482,
+              "left": 91,
+              "right": 326,
+              "width": 235,
+              "height": 41
+            },
+            "snippet": "<a href=\"/nsb/meetings/event_summ.jsp?cntn_id=306682\">",
+            "nodeLabel": "NSB Committee on External Engagement (EE) Teleconference",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.63 (foreground color: #428bca, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-192-DIV",
+                  "path": "1,HTML,2,BODY,0,DIV,7,DIV,0,DIV,1,DIV,0,DIV",
+                  "selector": "div.newsmeetingsection > div.row > div.col-xs-12 > div.panel",
+                  "boundingRect": {
+                    "top": 1045,
+                    "bottom": 1597,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 553
+                  },
+                  "snippet": "<div class=\"panel panel-default\">",
+                  "nodeLabel": "Meetings\nAugust 9, 2023\n\nNational Science Board NSB-NSF Commission on Merit Rev…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-104-A",
+            "path": "1,HTML,2,BODY,0,DIV,7,DIV,0,DIV,2,DIV,0,DIV,1,DIV,1,UL,0,LI,0,A",
+            "selector": "div.panel-body > ul > li > a",
+            "boundingRect": {
+              "top": 1853,
+              "bottom": 1871,
+              "left": 76,
+              "right": 265,
+              "width": 189,
+              "height": 19
+            },
+            "snippet": "<a href=\"NSBActivities/majoractions.jsp\">",
+            "nodeLabel": "Major Actions & Approvals",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.63 (foreground color: #428bca, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-193-DIV",
+                  "path": "1,HTML,2,BODY,0,DIV,7,DIV,0,DIV,2,DIV,0,DIV",
+                  "selector": "div.newsmeetingsection > div.row > div.col-xs-12 > div.panel",
+                  "boundingRect": {
+                    "top": 1617,
+                    "bottom": 2170,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 553
+                  },
+                  "snippet": "<div class=\"panel panel-default\">",
+                  "nodeLabel": "NSB Activities\n\nThe NSB establishes the policies of the National Science Founda…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-105-A",
+            "path": "1,HTML,2,BODY,0,DIV,7,DIV,0,DIV,2,DIV,0,DIV,1,DIV,1,UL,1,LI,0,A",
+            "selector": "div.panel-body > ul > li > a",
+            "boundingRect": {
+              "top": 1881,
+              "bottom": 1899,
+              "left": 76,
+              "right": 148,
+              "width": 72,
+              "height": 19
+            },
+            "snippet": "<a href=\"NSBActivities/testimony.jsp\">",
+            "nodeLabel": "Testimony",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.63 (foreground color: #428bca, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-193-DIV",
+                  "path": "1,HTML,2,BODY,0,DIV,7,DIV,0,DIV,2,DIV,0,DIV",
+                  "selector": "div.newsmeetingsection > div.row > div.col-xs-12 > div.panel",
+                  "boundingRect": {
+                    "top": 1617,
+                    "bottom": 2170,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 553
+                  },
+                  "snippet": "<div class=\"panel panel-default\">",
+                  "nodeLabel": "NSB Activities\n\nThe NSB establishes the policies of the National Science Founda…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-106-A",
+            "path": "1,HTML,2,BODY,0,DIV,7,DIV,0,DIV,2,DIV,0,DIV,1,DIV,1,UL,2,LI,0,A",
+            "selector": "div.panel-body > ul > li > a",
+            "boundingRect": {
+              "top": 1909,
+              "bottom": 1927,
+              "left": 76,
+              "right": 278,
+              "width": 202,
+              "height": 19
+            },
+            "snippet": "<a href=\"NSBActivities/reso_state.jsp\">",
+            "nodeLabel": "Resolutions and Statements",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.63 (foreground color: #428bca, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-193-DIV",
+                  "path": "1,HTML,2,BODY,0,DIV,7,DIV,0,DIV,2,DIV,0,DIV",
+                  "selector": "div.newsmeetingsection > div.row > div.col-xs-12 > div.panel",
+                  "boundingRect": {
+                    "top": 1617,
+                    "bottom": 2170,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 553
+                  },
+                  "snippet": "<div class=\"panel panel-default\">",
+                  "nodeLabel": "NSB Activities\n\nThe NSB establishes the policies of the National Science Founda…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-107-A",
+            "path": "1,HTML,2,BODY,0,DIV,7,DIV,0,DIV,2,DIV,0,DIV,1,DIV,1,UL,3,LI,0,A",
+            "selector": "div.panel-body > ul > li > a",
+            "boundingRect": {
+              "top": 1937,
+              "bottom": 1955,
+              "left": 76,
+              "right": 352,
+              "width": 276,
+              "height": 19
+            },
+            "snippet": "<a href=\"NSBActivities/skilled-technical-workforce.jsp\">",
+            "nodeLabel": "Skilled Technical Workforce Resources",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.63 (foreground color: #428bca, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-193-DIV",
+                  "path": "1,HTML,2,BODY,0,DIV,7,DIV,0,DIV,2,DIV,0,DIV",
+                  "selector": "div.newsmeetingsection > div.row > div.col-xs-12 > div.panel",
+                  "boundingRect": {
+                    "top": 1617,
+                    "bottom": 2170,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 553
+                  },
+                  "snippet": "<div class=\"panel panel-default\">",
+                  "nodeLabel": "NSB Activities\n\nThe NSB establishes the policies of the National Science Founda…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-108-A",
+            "path": "1,HTML,2,BODY,0,DIV,7,DIV,0,DIV,2,DIV,0,DIV,1,DIV,1,UL,4,LI,0,A",
+            "selector": "div.panel-body > ul > li > a",
+            "boundingRect": {
+              "top": 1964,
+              "bottom": 2006,
+              "left": 76,
+              "right": 280,
+              "width": 204,
+              "height": 41
+            },
+            "snippet": "<a href=\"NSBActivities/merit-review-commission.jsp\">",
+            "nodeLabel": "Merit Review Reexamination Commission",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.63 (foreground color: #428bca, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-193-DIV",
+                  "path": "1,HTML,2,BODY,0,DIV,7,DIV,0,DIV,2,DIV,0,DIV",
+                  "selector": "div.newsmeetingsection > div.row > div.col-xs-12 > div.panel",
+                  "boundingRect": {
+                    "top": 1617,
+                    "bottom": 2170,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 553
+                  },
+                  "snippet": "<div class=\"panel panel-default\">",
+                  "nodeLabel": "NSB Activities\n\nThe NSB establishes the policies of the National Science Founda…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-109-A",
+            "path": "1,HTML,2,BODY,0,DIV,7,DIV,0,DIV,2,DIV,0,DIV,1,DIV,1,UL,5,LI,0,A",
+            "selector": "div.panel-body > ul > li > a",
+            "boundingRect": {
+              "top": 2015,
+              "bottom": 2034,
+              "left": 76,
+              "right": 239,
+              "width": 163,
+              "height": 19
+            },
+            "snippet": "<a href=\"/nsb/NSBActivities/vision-2030.jsp\">",
+            "nodeLabel": "Vision 2030 Resources",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.63 (foreground color: #428bca, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-193-DIV",
+                  "path": "1,HTML,2,BODY,0,DIV,7,DIV,0,DIV,2,DIV,0,DIV",
+                  "selector": "div.newsmeetingsection > div.row > div.col-xs-12 > div.panel",
+                  "boundingRect": {
+                    "top": 1617,
+                    "bottom": 2170,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 553
+                  },
+                  "snippet": "<div class=\"panel panel-default\">",
+                  "nodeLabel": "NSB Activities\n\nThe NSB establishes the policies of the National Science Founda…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-110-A",
+            "path": "1,HTML,2,BODY,0,DIV,7,DIV,0,DIV,2,DIV,0,DIV,1,DIV,1,UL,6,LI,0,A",
+            "selector": "div.panel-body > ul > li > a",
+            "boundingRect": {
+              "top": 2043,
+              "bottom": 2061,
+              "left": 76,
+              "right": 254,
+              "width": 178,
+              "height": 19
+            },
+            "snippet": "<a href=\"/nsb/NSBActivities/semiannual_report.jsp\">",
+            "nodeLabel": "OIG Semiannual Reports",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.63 (foreground color: #428bca, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-193-DIV",
+                  "path": "1,HTML,2,BODY,0,DIV,7,DIV,0,DIV,2,DIV,0,DIV",
+                  "selector": "div.newsmeetingsection > div.row > div.col-xs-12 > div.panel",
+                  "boundingRect": {
+                    "top": 1617,
+                    "bottom": 2170,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 553
+                  },
+                  "snippet": "<div class=\"panel panel-default\">",
+                  "nodeLabel": "NSB Activities\n\nThe NSB establishes the policies of the National Science Founda…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-111-A",
+            "path": "1,HTML,2,BODY,0,DIV,7,DIV,0,DIV,2,DIV,0,DIV,1,DIV,1,UL,7,LI,0,A",
+            "selector": "div.panel-body > ul > li > a",
+            "boundingRect": {
+              "top": 2071,
+              "bottom": 2089,
+              "left": 76,
+              "right": 209,
+              "width": 133,
+              "height": 19
+            },
+            "snippet": "<a href=\"/nsb/about/multimediagallery.jsp\">",
+            "nodeLabel": "Multimedia Gallery",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.63 (foreground color: #428bca, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-193-DIV",
+                  "path": "1,HTML,2,BODY,0,DIV,7,DIV,0,DIV,2,DIV,0,DIV",
+                  "selector": "div.newsmeetingsection > div.row > div.col-xs-12 > div.panel",
+                  "boundingRect": {
+                    "top": 1617,
+                    "bottom": 2170,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 553
+                  },
+                  "snippet": "<div class=\"panel panel-default\">",
+                  "nodeLabel": "NSB Activities\n\nThe NSB establishes the policies of the National Science Founda…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-114-A",
+            "path": "1,HTML,2,BODY,0,DIV,10,DIV,1,DIV,0,DIV,0,DIV,1,DIV,1,P,3,A",
+            "selector": "div.thumbnail > div.caption > p > a",
+            "boundingRect": {
+              "top": 2566,
+              "bottom": 2585,
+              "left": 34,
+              "right": 157,
+              "width": 123,
+              "height": 19
+            },
+            "snippet": "<a href=\"/nsb/sei/index.jsp\">",
+            "nodeLabel": "related resources",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.63 (foreground color: #428bca, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-194-DIV",
+                  "path": "1,HTML,2,BODY,0,DIV,10,DIV,1,DIV,0,DIV,0,DIV",
+                  "selector": "div.topicsarea > div.row > div.col-sm-6 > div.thumbnail",
+                  "boundingRect": {
+                    "top": 2232,
+                    "bottom": 2830,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 598
+                  },
+                  "snippet": "<div class=\"thumbnail\" style=\"height: 598px; width: auto;\">",
+                  "nodeLabel": "Science & Engineering Indicators\n\nNSB’s biennial report, Science and Engineerin…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-195-EM",
+            "path": "1,HTML,2,BODY,0,DIV,10,DIV,1,DIV,0,DIV,0,DIV,1,DIV,2,UL,0,LI,0,A,0,EM",
+            "selector": "ul > li > a > em",
+            "boundingRect": {
+              "top": 2598,
+              "bottom": 2617,
+              "left": 74,
+              "right": 349,
+              "width": 275,
+              "height": 19
+            },
+            "snippet": "<em>",
+            "nodeLabel": "Science & Engineering Indicators 2022",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.63 (foreground color: #428bca, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-194-DIV",
+                  "path": "1,HTML,2,BODY,0,DIV,10,DIV,1,DIV,0,DIV,0,DIV",
+                  "selector": "div.topicsarea > div.row > div.col-sm-6 > div.thumbnail",
+                  "boundingRect": {
+                    "top": 2232,
+                    "bottom": 2830,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 598
+                  },
+                  "snippet": "<div class=\"thumbnail\" style=\"height: 598px; width: auto;\">",
+                  "nodeLabel": "Science & Engineering Indicators\n\nNSB’s biennial report, Science and Engineerin…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-196-EM",
+            "path": "1,HTML,2,BODY,0,DIV,10,DIV,1,DIV,0,DIV,0,DIV,1,DIV,2,UL,1,LI,0,A,0,EM",
+            "selector": "ul > li > a > em",
+            "boundingRect": {
+              "top": 2626,
+              "bottom": 2645,
+              "left": 74,
+              "right": 361,
+              "width": 287,
+              "height": 19
+            },
+            "snippet": "<em>",
+            "nodeLabel": "The State of U.S. Science & Engineering",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.63 (foreground color: #428bca, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-194-DIV",
+                  "path": "1,HTML,2,BODY,0,DIV,10,DIV,1,DIV,0,DIV,0,DIV",
+                  "selector": "div.topicsarea > div.row > div.col-sm-6 > div.thumbnail",
+                  "boundingRect": {
+                    "top": 2232,
+                    "bottom": 2830,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 598
+                  },
+                  "snippet": "<div class=\"thumbnail\" style=\"height: 598px; width: auto;\">",
+                  "nodeLabel": "Science & Engineering Indicators\n\nNSB’s biennial report, Science and Engineerin…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-117-A",
+            "path": "1,HTML,2,BODY,0,DIV,10,DIV,1,DIV,0,DIV,0,DIV,1,DIV,2,UL,2,LI,0,A",
+            "selector": "div.caption > ul > li > a",
+            "boundingRect": {
+              "top": 2655,
+              "bottom": 2673,
+              "left": 74,
+              "right": 187,
+              "width": 113,
+              "height": 19
+            },
+            "snippet": "<a href=\"https://ncses.nsf.gov/indicators/states\">",
+            "nodeLabel": "State Indicators",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.63 (foreground color: #428bca, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-194-DIV",
+                  "path": "1,HTML,2,BODY,0,DIV,10,DIV,1,DIV,0,DIV,0,DIV",
+                  "selector": "div.topicsarea > div.row > div.col-sm-6 > div.thumbnail",
+                  "boundingRect": {
+                    "top": 2232,
+                    "bottom": 2830,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 598
+                  },
+                  "snippet": "<div class=\"thumbnail\" style=\"height: 598px; width: auto;\">",
+                  "nodeLabel": "Science & Engineering Indicators\n\nNSB’s biennial report, Science and Engineerin…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-118-A",
+            "path": "1,HTML,2,BODY,0,DIV,10,DIV,1,DIV,0,DIV,0,DIV,1,DIV,2,UL,3,LI,0,A",
+            "selector": "div.caption > ul > li > a",
+            "boundingRect": {
+              "top": 2682,
+              "bottom": 2701,
+              "left": 74,
+              "right": 200,
+              "width": 126,
+              "height": 19
+            },
+            "snippet": "<a href=\"/nsb/sei/one-pagers/state.jsp\">",
+            "nodeLabel": "State One Pagers",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.63 (foreground color: #428bca, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-194-DIV",
+                  "path": "1,HTML,2,BODY,0,DIV,10,DIV,1,DIV,0,DIV,0,DIV",
+                  "selector": "div.topicsarea > div.row > div.col-sm-6 > div.thumbnail",
+                  "boundingRect": {
+                    "top": 2232,
+                    "bottom": 2830,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 598
+                  },
+                  "snippet": "<div class=\"thumbnail\" style=\"height: 598px; width: auto;\">",
+                  "nodeLabel": "Science & Engineering Indicators\n\nNSB’s biennial report, Science and Engineerin…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-119-A",
+            "path": "1,HTML,2,BODY,0,DIV,10,DIV,1,DIV,0,DIV,0,DIV,1,DIV,2,UL,4,LI,0,A",
+            "selector": "div.caption > ul > li > a",
+            "boundingRect": {
+              "top": 2710,
+              "bottom": 2752,
+              "left": 74,
+              "right": 302,
+              "width": 228,
+              "height": 41
+            },
+            "snippet": "<a href=\"http://www.nsf.gov/statistics/\">",
+            "nodeLabel": "National Center for Science and Engineering Statistics (NCSES)",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.63 (foreground color: #428bca, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-194-DIV",
+                  "path": "1,HTML,2,BODY,0,DIV,10,DIV,1,DIV,0,DIV,0,DIV",
+                  "selector": "div.topicsarea > div.row > div.col-sm-6 > div.thumbnail",
+                  "boundingRect": {
+                    "top": 2232,
+                    "bottom": 2830,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 598
+                  },
+                  "snippet": "<div class=\"thumbnail\" style=\"height: 598px; width: auto;\">",
+                  "nodeLabel": "Science & Engineering Indicators\n\nNSB’s biennial report, Science and Engineerin…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-137-A",
+            "path": "1,HTML,2,BODY,0,DIV,10,DIV,1,DIV,3,DIV,0,DIV,1,DIV,2,UL,0,LI,0,A",
+            "selector": "div.caption > ul > li > a",
+            "boundingRect": {
+              "top": 3791,
+              "bottom": 3810,
+              "left": 74,
+              "right": 231,
+              "width": 157,
+              "height": 19
+            },
+            "snippet": "<a href=\"awards/bush.jsp\">",
+            "nodeLabel": "Vannevar Bush Award",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.63 (foreground color: #428bca, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-197-DIV",
+                  "path": "1,HTML,2,BODY,0,DIV,10,DIV,1,DIV,3,DIV,0,DIV",
+                  "selector": "div.topicsarea > div.row > div.col-sm-6 > div.thumbnail",
+                  "boundingRect": {
+                    "top": 3468,
+                    "bottom": 4066,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 598
+                  },
+                  "snippet": "<div class=\"thumbnail\" style=\"height: 598px;\">",
+                  "nodeLabel": "NSB Honorary Awards\n\nEach year, the NSB honors individuals and organizations wi…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-138-A",
+            "path": "1,HTML,2,BODY,0,DIV,10,DIV,1,DIV,3,DIV,0,DIV,1,DIV,2,UL,1,LI,0,A",
+            "selector": "div.caption > ul > li > a",
+            "boundingRect": {
+              "top": 3819,
+              "bottom": 3838,
+              "left": 74,
+              "right": 226,
+              "width": 152,
+              "height": 19
+            },
+            "snippet": "<a href=\"awards/public.jsp\">",
+            "nodeLabel": "Public Service Award",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.63 (foreground color: #428bca, background color: #ffffff, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "9-197-DIV",
+                  "path": "1,HTML,2,BODY,0,DIV,10,DIV,1,DIV,3,DIV,0,DIV",
+                  "selector": "div.topicsarea > div.row > div.col-sm-6 > div.thumbnail",
+                  "boundingRect": {
+                    "top": 3468,
+                    "bottom": 4066,
+                    "left": 20,
+                    "right": 392,
+                    "width": 372,
+                    "height": 598
+                  },
+                  "snippet": "<div class=\"thumbnail\" style=\"height: 598px;\">",
+                  "nodeLabel": "NSB Honorary Awards\n\nEach year, the NSB honors individuals and organizations wi…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 26
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-5-A",
+            "path": "1,HTML,2,BODY,0,DIV,1,DIV,3,A",
+            "selector": "body > div.container-fluid > div#myCarousel > a.left",
+            "boundingRect": {
+              "top": 20,
+              "bottom": 320,
+              "left": 0,
+              "right": 62,
+              "width": 62,
+              "height": 300
+            },
+            "snippet": "<a class=\"left carousel-control\" href=\"#myCarousel\" role=\"button\" data-slide=\"prev\">",
+            "nodeLabel": "left-arrow",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-6-A",
+            "path": "1,HTML,2,BODY,0,DIV,1,DIV,4,A",
+            "selector": "body > div.container-fluid > div#myCarousel > a.right",
+            "boundingRect": {
+              "top": 20,
+              "bottom": 320,
+              "left": 350,
+              "right": 412,
+              "width": 62,
+              "height": 300
+            },
+            "snippet": "<a class=\"right carousel-control\" href=\"#myCarousel\" role=\"button\" data-slide=\"next\">",
+            "nodeLabel": "right-arrow",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-95-A",
+            "path": "1,HTML,2,BODY,0,DIV,7,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,UL,0,LI,0,A",
+            "selector": "div.panel-body > ul.media-list > li.media > a.pull-left",
+            "boundingRect": {
+              "top": 1108,
+              "bottom": 1156,
+              "left": 36,
+              "right": 81,
+              "width": 45,
+              "height": 48
+            },
+            "snippet": "<a class=\"pull-left\" href=\"/nsb/meetings/event_summ.jsp?cntn_id=307977\">",
+            "nodeLabel": "div.panel-body > ul.media-list > li.media > a.pull-left",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-99-A",
+            "path": "1,HTML,2,BODY,0,DIV,7,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,UL,1,LI,0,A",
+            "selector": "div.panel-body > ul.media-list > li.media > a.pull-left",
+            "boundingRect": {
+              "top": 1313,
+              "bottom": 1361,
+              "left": 36,
+              "right": 81,
+              "width": 45,
+              "height": 48
+            },
+            "snippet": "<a class=\"pull-left\" href=\"/nsb/meetings/event_summ.jsp?cntn_id=306558\">",
+            "nodeLabel": "div.panel-body > ul.media-list > li.media > a.pull-left",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-101-A",
+            "path": "1,HTML,2,BODY,0,DIV,7,DIV,0,DIV,1,DIV,0,DIV,1,DIV,0,UL,2,LI,0,A",
+            "selector": "div.panel-body > ul.media-list > li.media > a.pull-left",
+            "boundingRect": {
+              "top": 1416,
+              "bottom": 1464,
+              "left": 36,
+              "right": 81,
+              "width": 45,
+              "height": 48
+            },
+            "snippet": "<a class=\"pull-left\" href=\"/nsb/meetings/event_summ.jsp?cntn_id=306682\">",
+            "nodeLabel": "div.panel-body > ul.media-list > li.media > a.pull-left",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-134-A",
+            "path": "1,HTML,2,BODY,0,DIV,10,DIV,1,DIV,1,DIV,0,DIV,3,DIV,2,DIV,0,A",
+            "selector": "div.thumbnail > div#myCarousel2 > div.carousel-controls > a.left",
+            "boundingRect": {
+              "top": 3191,
+              "bottom": 3191,
+              "left": 0,
+              "right": 54,
+              "width": 54,
+              "height": 0
+            },
+            "snippet": "<a class=\"left carousel-control\" href=\"#myCarousel2\" data-slide=\"prev\">",
+            "nodeLabel": "div.thumbnail > div#myCarousel2 > div.carousel-controls > a.left",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-135-A",
+            "path": "1,HTML,2,BODY,0,DIV,10,DIV,1,DIV,1,DIV,0,DIV,3,DIV,2,DIV,1,A",
+            "selector": "div.thumbnail > div#myCarousel2 > div.carousel-controls > a.right",
+            "boundingRect": {
+              "top": 3191,
+              "bottom": 3191,
+              "left": 358,
+              "right": 412,
+              "width": 54,
+              "height": 0
+            },
+            "snippet": "<a class=\"right carousel-control\" href=\"#myCarousel2\" data-slide=\"next\">",
+            "nodeLabel": "div.thumbnail > div#myCarousel2 > div.carousel-controls > a.right",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 7
+  },
+  {
+    "id": "meta-viewport",
+    "title": "`[user-scalable=\"no\"]` is used in the `<meta name=\"viewport\">` element or the `[maximum-scale]` attribute is less than 5.",
+    "description": "Disabling zooming is problematic for users with low vision who rely on screen magnification to properly see the contents of a web page. [Learn more](https://web.dev/meta-viewport/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "9-157-META",
+            "path": "1,HTML,1,HEAD,2,META",
+            "selector": "head > meta",
+            "boundingRect": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0,
+              "width": 0,
+              "height": 0
+            },
+            "snippet": "<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0\">",
+            "nodeLabel": "head > meta",
+            "explanation": "Fix any of the following:\n  maximum-scale on <meta> tag disables zooming on mobile devices"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.sensory-and-visual-cues",
+          "best-practice",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

@@ -1,0 +1,265 @@
+[
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-231-UL",
+            "path": "2,HTML,1,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL",
+            "selector": "div.row > div#leftnavdividcontainer > div#leftnavdivid > ul.nav",
+            "boundingRect": {
+              "top": 197,
+              "bottom": 1066,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 870
+            },
+            "snippet": "<ul class=\"nav nav-stacked left-nav\">",
+            "nodeLabel": "Mathematical and Physical Sciences (MPS)\nMathematical and Physical Sciences (MP…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-232-UL",
+                  "path": "2,HTML,1,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,2,UL",
+                  "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > ul.dropdown-list",
+                  "boundingRect": {
+                    "top": 318,
+                    "bottom": 646,
+                    "left": 65,
+                    "right": 368,
+                    "width": 303,
+                    "height": 328
+                  },
+                  "snippet": "<ul class=\"dropdown-list\">",
+                  "nodeLabel": "About\nPrograms\nStaff\nFunding\nAwards\nNews\nEvents\nAdditional Resources"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-233-DIV",
+                  "path": "2,HTML,1,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,9,DIV",
+                  "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > div.add-references",
+                  "boundingRect": {
+                    "top": 912,
+                    "bottom": 1066,
+                    "left": 105,
+                    "right": 368,
+                    "width": 263,
+                    "height": 154
+                  },
+                  "snippet": "<div class=\"add-references nav nav-stacked left-nav\">",
+                  "nodeLabel": " Get MPS Email Updates\n Contact MPS\n NSF on Twitter\n NSF on Facebook\n NSF on Yo…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-234-UL",
+            "path": "2,HTML,1,BODY,7,DIV,1,DIV,1,DIV,1,DIV,2,DIV,0,DIV,0,DIV,4,UL",
+            "selector": "div.row > div.col-sm-5 > div.panel > ul.list-group",
+            "boundingRect": {
+              "top": 576,
+              "bottom": 764,
+              "left": 415,
+              "right": 716,
+              "width": 302,
+              "height": 188
+            },
+            "snippet": "<ul class=\"list-group\">",
+            "nodeLabel": "MPS Ascend Webinar: 11/17/22 Read More ›\nLEAPS-MPS Webinar: 11/30/2022 Read Mor…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-235-DIV",
+                  "path": "2,HTML,1,BODY,7,DIV,1,DIV,1,DIV,1,DIV,2,DIV,0,DIV,0,DIV,4,UL,3,DIV",
+                  "selector": "div.col-sm-5 > div.panel > ul.list-group > div.panel-footer",
+                  "boundingRect": {
+                    "top": 728,
+                    "bottom": 764,
+                    "left": 430,
+                    "right": 701,
+                    "width": 272,
+                    "height": 36
+                  },
+                  "snippet": "<div class=\"panel-footer\">",
+                  "nodeLabel": "See All ›\nAnnouncements"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "listitem",
+    "title": "List items (`<li>`) are not contained within `<ul>` or `<ol>` parent elements.",
+    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>` or `<ol>` to be announced properly. [Learn more](https://web.dev/listitem/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-236-LI",
+            "path": "2,HTML,1,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,9,DIV,0,LI",
+            "selector": "div#leftnavdivid > ul.nav > div.add-references > li",
+            "boundingRect": {
+              "top": 912,
+              "bottom": 950,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 38
+            },
+            "snippet": "<li>",
+            "nodeLabel": " Get MPS Email Updates",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-237-LI",
+            "path": "2,HTML,1,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,9,DIV,1,LI",
+            "selector": "div#leftnavdivid > ul.nav > div.add-references > li",
+            "boundingRect": {
+              "top": 950,
+              "bottom": 976,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 26
+            },
+            "snippet": "<li>",
+            "nodeLabel": " Contact MPS",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-238-LI",
+            "path": "2,HTML,1,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,9,DIV,2,LI",
+            "selector": "div#leftnavdivid > ul.nav > div.add-references > li",
+            "boundingRect": {
+              "top": 976,
+              "bottom": 1002,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 26
+            },
+            "snippet": "<li>",
+            "nodeLabel": " NSF on Twitter",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-239-LI",
+            "path": "2,HTML,1,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,9,DIV,3,LI",
+            "selector": "div#leftnavdivid > ul.nav > div.add-references > li",
+            "boundingRect": {
+              "top": 1002,
+              "bottom": 1028,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 26
+            },
+            "snippet": "<li>",
+            "nodeLabel": " NSF on Facebook",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-240-LI",
+            "path": "2,HTML,1,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,9,DIV,4,LI",
+            "selector": "div#leftnavdivid > ul.nav > div.add-references > li",
+            "boundingRect": {
+              "top": 1028,
+              "bottom": 1066,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 38
+            },
+            "snippet": "<li>",
+            "nodeLabel": " NSF on YouTube",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 5
+  }
+]

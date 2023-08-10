@@ -1,0 +1,386 @@
+[
+  {
+    "id": "duplicate-id-active",
+    "title": "`[id]` attributes on active, focusable elements are not unique",
+    "description": "All focusable elements must have a unique `id` to ensure that they're visible to assistive technologies. [Learn more](https://web.dev/duplicate-id-active/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-227-DIV",
+            "path": "2,HTML,1,BODY,7,DIV,1,DIV,1,DIV",
+            "selector": "body > div.container > div.row > div#content",
+            "boundingRect": {
+              "top": 197,
+              "bottom": 1326,
+              "left": 383,
+              "right": 1260,
+              "width": 878,
+              "height": 1129
+            },
+            "snippet": "<div class=\"col-md-9\" id=\"content\" tabindex=\"-1\" role=\"main\">",
+            "nodeLabel": "Home Research Areas Geosciences\n Email\n Print\n Share\nOcean Sciences (OCE)\n\n...r…",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: content"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-94-A",
+                  "path": "2,HTML,1,BODY,7,DIV,1,DIV,1,DIV,1,DIV,1,A",
+                  "selector": "div.row > div#content > div > a#content",
+                  "boundingRect": {
+                    "top": 542,
+                    "bottom": 542,
+                    "left": 398,
+                    "right": 398,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a name=\"content\" id=\"content\">",
+                  "nodeLabel": "div.row > div#content > div > a#content"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.parsing",
+          "wcag2a",
+          "wcag411"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-228-UL",
+            "path": "2,HTML,1,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL",
+            "selector": "div.row > div#leftnavdividcontainer > div#leftnavdivid > ul.nav",
+            "boundingRect": {
+              "top": 197,
+              "bottom": 989,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 792
+            },
+            "snippet": "<ul class=\"nav nav-stacked left-nav\">",
+            "nodeLabel": "Geosciences (GEO)\nGeosciences (GEO) Home\nAtmospheric and Geospace Sciences (AGS…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-229-UL",
+                  "path": "2,HTML,1,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,7,UL",
+                  "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > ul.dropdown-list",
+                  "boundingRect": {
+                    "top": 422,
+                    "bottom": 750,
+                    "left": 65,
+                    "right": 368,
+                    "width": 303,
+                    "height": 328
+                  },
+                  "snippet": "<ul class=\"dropdown-list\">",
+                  "nodeLabel": "About\nPrograms\nStaff\nFunding\nAwards\nNews\nEvents\nAdditional Resources"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-230-DIV",
+                  "path": "2,HTML,1,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,10,DIV",
+                  "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > div.add-references",
+                  "boundingRect": {
+                    "top": 852,
+                    "bottom": 989,
+                    "left": 105,
+                    "right": 368,
+                    "width": 263,
+                    "height": 137
+                  },
+                  "snippet": "<div class=\"add-references nav nav-stacked left-nav\">",
+                  "nodeLabel": "Get GEO Email Updates  GO\n Contact GEO/OCE\n NSF on Twitter"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-231-UL",
+            "path": "2,HTML,1,BODY,7,DIV,1,DIV,1,DIV,1,DIV,2,DIV,0,DIV,0,DIV,4,UL",
+            "selector": "div.row > div.col-sm-5 > div.panel > ul.list-group",
+            "boundingRect": {
+              "top": 599,
+              "bottom": 807,
+              "left": 415,
+              "right": 716,
+              "width": 302,
+              "height": 208
+            },
+            "snippet": "<ul class=\"list-group\">",
+            "nodeLabel": "5th Frontiers in Ocean Sciences Symposium – recording available Read More ›\nUSS…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-232-DIV",
+                  "path": "2,HTML,1,BODY,7,DIV,1,DIV,1,DIV,1,DIV,2,DIV,0,DIV,0,DIV,4,UL,3,DIV",
+                  "selector": "div.col-sm-5 > div.panel > ul.list-group > div.panel-footer",
+                  "boundingRect": {
+                    "top": 771,
+                    "bottom": 807,
+                    "left": 430,
+                    "right": 701,
+                    "width": 272,
+                    "height": 36
+                  },
+                  "snippet": "<div class=\"panel-footer\">",
+                  "nodeLabel": "See All ›\nAnnouncements"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-233-UL",
+            "path": "2,HTML,1,BODY,7,DIV,1,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,2,UL",
+            "selector": "div.row > div.col-sm-4 > div.panel > ul.list-group",
+            "boundingRect": {
+              "top": 934,
+              "bottom": 1199,
+              "left": 415,
+              "right": 643,
+              "width": 228,
+              "height": 265
+            },
+            "snippet": "<ul class=\"list-group\">",
+            "nodeLabel": "National Artificial Intelligence (AI) Research Institutes\n\n(NSF 23-610) POSTED …",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-234-DIV",
+                  "path": "2,HTML,1,BODY,7,DIV,1,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,2,UL,3,DIV",
+                  "selector": "div.col-sm-4 > div.panel > ul.list-group > div.panel-footer",
+                  "boundingRect": {
+                    "top": 1163,
+                    "bottom": 1199,
+                    "left": 430,
+                    "right": 628,
+                    "width": 198,
+                    "height": 36
+                  },
+                  "snippet": "<div class=\"panel-footer\">",
+                  "nodeLabel": "See All ›"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-235-UL",
+            "path": "2,HTML,1,BODY,7,DIV,1,DIV,1,DIV,1,DIV,3,DIV,1,DIV,0,DIV,2,UL",
+            "selector": "div.row > div.col-sm-4 > div.panel > ul.list-group",
+            "boundingRect": {
+              "top": 934,
+              "bottom": 1181,
+              "left": 707,
+              "right": 935,
+              "width": 228,
+              "height": 247
+            },
+            "snippet": "<ul class=\"list-group\">",
+            "nodeLabel": "Chemical Oceanography\n(PD  98-1670) FULL PROPOSAL: AUGUST 15, 2023\nPhysical Oce…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-236-DIV",
+                  "path": "2,HTML,1,BODY,7,DIV,1,DIV,1,DIV,1,DIV,3,DIV,1,DIV,0,DIV,2,UL,3,DIV",
+                  "selector": "div.col-sm-4 > div.panel > ul.list-group > div.panel-footer",
+                  "boundingRect": {
+                    "top": 1145,
+                    "bottom": 1181,
+                    "left": 722,
+                    "right": 920,
+                    "width": 198,
+                    "height": 36
+                  },
+                  "snippet": "<div class=\"panel-footer\">",
+                  "nodeLabel": "See All ›\nUpcoming Due Dates"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 4
+  },
+  {
+    "id": "listitem",
+    "title": "List items (`<li>`) are not contained within `<ul>` or `<ol>` parent elements.",
+    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>` or `<ol>` to be announced properly. [Learn more](https://web.dev/listitem/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-237-LI",
+            "path": "2,HTML,1,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,10,DIV,0,LI",
+            "selector": "div#leftnavdivid > ul.nav > div.add-references > li",
+            "boundingRect": {
+              "top": 852,
+              "bottom": 925,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 73
+            },
+            "snippet": "<li>",
+            "nodeLabel": "Get GEO Email Updates  GO",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-238-LI",
+            "path": "2,HTML,1,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,10,DIV,1,LI",
+            "selector": "div#leftnavdivid > ul.nav > div.add-references > li",
+            "boundingRect": {
+              "top": 925,
+              "bottom": 951,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 26
+            },
+            "snippet": "<li>",
+            "nodeLabel": " Contact GEO/OCE",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-239-LI",
+            "path": "2,HTML,1,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,10,DIV,2,LI",
+            "selector": "div#leftnavdivid > ul.nav > div.add-references > li",
+            "boundingRect": {
+              "top": 951,
+              "bottom": 989,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 38
+            },
+            "snippet": "<li>",
+            "nodeLabel": " NSF on Twitter",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 3
+  }
+]
