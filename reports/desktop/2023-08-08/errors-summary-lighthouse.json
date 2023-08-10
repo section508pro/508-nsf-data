@@ -1,1 +1,14 @@
-{}
+{
+  "aria-required-parent": 144,
+  "color-contrast": 44,
+  "listitem": 32,
+  "list": 26,
+  "image-alt": 12,
+  "link-name": 9,
+  "duplicate-id-active": 5,
+  "aria-required-children": 2,
+  "meta-viewport": 1,
+  "html-has-lang": 1,
+  "button-name": 1,
+  "heading-order": 1
+}
