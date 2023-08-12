@@ -1,0 +1,111 @@
+[
+  {
+    "id": "aria-required-parent",
+    "title": "`[role]`s are not contained by their required parent element",
+    "description": "Some ARIA child roles must be contained by specific parent roles to properly perform their intended accessibility functions. [Learn more](https://web.dev/aria-required-parent/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-181-LI",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,1,LI",
+            "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > li.current",
+            "boundingRect": {
+              "top": 238,
+              "bottom": 279,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 41
+            },
+            "snippet": "<li role=\"menuitem\" class=\"current\">",
+            "nodeLabel": "Help",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: menu, menubar, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-182-LI",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,2,LI",
+            "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > li",
+            "boundingRect": {
+              "top": 279,
+              "bottom": 320,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 41
+            },
+            "snippet": "<li role=\"menuitem\">",
+            "nodeLabel": "Plug-ins and Viewers",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: menu, menubar, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-183-LI",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,4,LI",
+            "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > li",
+            "boundingRect": {
+              "top": 361,
+              "bottom": 402,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 41
+            },
+            "snippet": "<li role=\"menuitem\">",
+            "nodeLabel": "User Research",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: menu, menubar, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-184-LI",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,5,LI",
+            "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > li",
+            "boundingRect": {
+              "top": 402,
+              "bottom": 443,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 41
+            },
+            "snippet": "<li role=\"menuitem\">",
+            "nodeLabel": "Contact NSF",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: menu, menubar, group"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 4
+  }
+]
