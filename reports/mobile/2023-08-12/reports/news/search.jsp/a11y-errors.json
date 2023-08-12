@@ -1,0 +1,77 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-83-A",
+            "path": "2,HTML,1,BODY,7,DIV,1,DIV,1,DIV,1,DIV,0,DIV,0,P,0,STRONG,1,A",
+            "selector": "div.row > p.alert > strong > a",
+            "boundingRect": {
+              "top": 295,
+              "bottom": 311,
+              "left": 243,
+              "right": 322,
+              "width": 79,
+              "height": 16
+            },
+            "snippet": "<a href=\"https://new.nsf.gov/news/releases\">",
+            "nodeLabel": "new.nsf.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.3 (foreground color: #0c72b5, background color: #dff0d8, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-367-P",
+                  "path": "2,HTML,1,BODY,7,DIV,1,DIV,1,DIV,1,DIV,0,DIV,0,P",
+                  "selector": "div#content > div#inner-content > div.row > p.alert",
+                  "boundingRect": {
+                    "top": 277,
+                    "bottom": 329,
+                    "left": 19,
+                    "right": 393,
+                    "width": 374,
+                    "height": 52
+                  },
+                  "snippet": "<p class=\"alert alert-success\" role=\"alert\">",
+                  "nodeLabel": "Search the latest NSF news on new.nsf.gov."
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
