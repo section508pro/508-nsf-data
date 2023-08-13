@@ -1,0 +1,161 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-82-A",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,2,DIV,1,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,DIV,2,SPAN,1,A",
+            "selector": "div.row > div#contactbox > span > a",
+            "boundingRect": {
+              "top": 448,
+              "bottom": 468,
+              "left": 39,
+              "right": 160,
+              "width": 121,
+              "height": 20
+            },
+            "snippet": "<a href=\"mailto:media@nsf.gov\">",
+            "nodeLabel": "media@nsf.gov",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.14 (foreground color: #0c72b5, background color: #dce9ef, font size: 13.0pt (17.3333px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-188-DIV",
+                  "path": "1,HTML,2,BODY,7,DIV,1,DIV,2,DIV,1,DIV,2,DIV,0,DIV,0,DIV,1,DIV,0,DIV",
+                  "selector": "div#pagewrap > div.col-md-12 > div.row > div#contactbox",
+                  "boundingRect": {
+                    "top": 332,
+                    "bottom": 489,
+                    "left": 19,
+                    "right": 363,
+                    "width": 344,
+                    "height": 156
+                  },
+                  "snippet": "<div class=\"col-md-12\" id=\"contactbox\">",
+                  "nodeLabel": "Media Inquiries\nFor media inquiries, please call (703) 292-7090 or email NSF Pu…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-85-A",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,2,DIV,1,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,DIV,1,P,3,A",
+            "selector": "div#updates > div.col-md-12 > p > a",
+            "boundingRect": {
+              "top": 1128,
+              "bottom": 1148,
+              "left": 194,
+              "right": 235,
+              "width": 41,
+              "height": 20
+            },
+            "snippet": "<a href=\"https://service.govdelivery.com/accounts/USNSF/subscriber/new?topic_id=USN…\">",
+            "nodeLabel": "email",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #0c72b5, background color: #eaeaea, font size: 13.0pt (17.3333px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-189-DIV",
+                  "path": "1,HTML,2,BODY,7,DIV,1,DIV,2,DIV,1,DIV,2,DIV,0,DIV,0,DIV,3,DIV",
+                  "selector": "div > div#pagewrap > div.col-md-12 > div#updates",
+                  "boundingRect": {
+                    "top": 1044,
+                    "bottom": 1174,
+                    "left": 1,
+                    "right": 412,
+                    "width": 411,
+                    "height": 129
+                  },
+                  "snippet": "<div class=\"row\" id=\"updates\">",
+                  "nodeLabel": "Get The Latest News\n\nSign-up to receive news announcements, feature stories and…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-86-A",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,2,DIV,1,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,DIV,1,P,5,A",
+            "selector": "div#updates > div.col-md-12 > p > a",
+            "boundingRect": {
+              "top": 1128,
+              "bottom": 1148,
+              "left": 284,
+              "right": 319,
+              "width": 36,
+              "height": 20
+            },
+            "snippet": "<a href=\"https://nsf.gov/rss/rss_www_news.xml\">",
+            "nodeLabel": "RSS",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.26 (foreground color: #0c72b5, background color: #eaeaea, font size: 13.0pt (17.3333px), font weight: normal). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-189-DIV",
+                  "path": "1,HTML,2,BODY,7,DIV,1,DIV,2,DIV,1,DIV,2,DIV,0,DIV,0,DIV,3,DIV",
+                  "selector": "div > div#pagewrap > div.col-md-12 > div#updates",
+                  "boundingRect": {
+                    "top": 1044,
+                    "bottom": 1174,
+                    "left": 1,
+                    "right": 412,
+                    "width": 411,
+                    "height": 129
+                  },
+                  "snippet": "<div class=\"row\" id=\"updates\">",
+                  "nodeLabel": "Get The Latest News\n\nSign-up to receive news announcements, feature stories and…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 3
+  }
+]
