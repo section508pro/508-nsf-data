@@ -1,0 +1,222 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-191-SPAN",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,2,DIV,1,DIV,2,P,0,B,1,SPAN",
+            "selector": "div#inner-content > p > b > span.style5",
+            "boundingRect": {
+              "top": 314,
+              "bottom": 370,
+              "left": 417,
+              "right": 1222,
+              "width": 805,
+              "height": 56
+            },
+            "snippet": "<span class=\"style5\">",
+            "nodeLabel": "Effective January 14, 2013, the National Science Foundation implemented revised…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.77 (foreground color: #009900, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-192-DIV",
+                  "path": "1,HTML,2,BODY,7,DIV,1,DIV,2,DIV,1,DIV",
+                  "selector": "div.container > div.row > div#content > div#inner-content",
+                  "boundingRect": {
+                    "top": 232,
+                    "bottom": 424,
+                    "left": 398,
+                    "right": 1245,
+                    "width": 848,
+                    "height": 192
+                  },
+                  "snippet": "<div id=\"inner-content\" class=\"panel panel-orange\">",
+                  "nodeLabel": "Merit Review\n\nNOTICE: Effective January 14, 2013, the National Science Foundati…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-193-UL",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL",
+            "selector": "div.row > div#leftnavdividcontainer > div#leftnavdivid > ul.nav",
+            "boundingRect": {
+              "top": 197,
+              "bottom": 1002,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 805
+            },
+            "snippet": "<ul class=\"nav nav-stacked left-nav\">",
+            "nodeLabel": "Office of Budget Finance and Award Management (BFA)\nOffice of Budget, Finance, …",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-194-UL",
+                  "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,7,UL",
+                  "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > ul.dropdown-list",
+                  "boundingRect": {
+                    "top": 563,
+                    "bottom": 727,
+                    "left": 65,
+                    "right": 368,
+                    "width": 303,
+                    "height": 164
+                  },
+                  "snippet": "<ul class=\"dropdown-list\">",
+                  "nodeLabel": "Policy Office\nCAP Branch\nRAM Branch\nSystems Office"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-195-DIV",
+                  "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,13,DIV",
+                  "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > div.add-references",
+                  "boundingRect": {
+                    "top": 952,
+                    "bottom": 1002,
+                    "left": 105,
+                    "right": 368,
+                    "width": 263,
+                    "height": 50
+                  },
+                  "snippet": "<div class=\"add-references nav nav-stacked left-nav\">",
+                  "nodeLabel": " Contact BFA"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "listitem",
+    "title": "List items (`<li>`) are not contained within `<ul>` or `<ol>` parent elements.",
+    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>` or `<ol>` to be announced properly. [Learn more](https://web.dev/listitem/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-196-LI",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,13,DIV,0,LI",
+            "selector": "div#leftnavdivid > ul.nav > div.add-references > li",
+            "boundingRect": {
+              "top": 952,
+              "bottom": 1002,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 50
+            },
+            "snippet": "<li>",
+            "nodeLabel": " Contact BFA",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
