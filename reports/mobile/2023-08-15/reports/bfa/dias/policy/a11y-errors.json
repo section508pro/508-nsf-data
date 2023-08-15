@@ -1,0 +1,551 @@
+[
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-231-UL",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,2,DIV,1,DIV,8,UL",
+            "selector": "div.row > div#content > div#inner-content > ul",
+            "boundingRect": {
+              "top": 615,
+              "bottom": 3535,
+              "left": 19,
+              "right": 393,
+              "width": 374,
+              "height": 2920
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "\"For comment\" draft of the Proposal & Award Policies & Procedures Guide (PAPPG)…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-232-P",
+                  "path": "1,HTML,2,BODY,7,DIV,1,DIV,2,DIV,1,DIV,8,UL,1,P",
+                  "selector": "div#content > div#inner-content > ul > p",
+                  "boundingRect": {
+                    "top": 655,
+                    "bottom": 655,
+                    "left": 59,
+                    "right": 393,
+                    "width": 334,
+                    "height": 0
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "div#content > div#inner-content > ul > p"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-233-UL",
+                  "path": "1,HTML,2,BODY,7,DIV,1,DIV,2,DIV,1,DIV,8,UL,2,UL",
+                  "selector": "div#content > div#inner-content > ul > ul",
+                  "boundingRect": {
+                    "top": 670,
+                    "bottom": 745,
+                    "left": 59,
+                    "right": 393,
+                    "width": 334,
+                    "height": 75
+                  },
+                  "snippet": "<ul>",
+                  "nodeLabel": "See Federal Register notice dated April 13, 2023\n\nComment period closed June 12…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-234-P",
+                  "path": "1,HTML,2,BODY,7,DIV,1,DIV,2,DIV,1,DIV,8,UL,3,P",
+                  "selector": "div#content > div#inner-content > ul > p",
+                  "boundingRect": {
+                    "top": 745,
+                    "bottom": 745,
+                    "left": 59,
+                    "right": 393,
+                    "width": 334,
+                    "height": 0
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "div#content > div#inner-content > ul > p"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-233-UL",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,2,DIV,1,DIV,8,UL,2,UL",
+            "selector": "div#content > div#inner-content > ul > ul",
+            "boundingRect": {
+              "top": 670,
+              "bottom": 745,
+              "left": 59,
+              "right": 393,
+              "width": 334,
+              "height": 75
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "See Federal Register notice dated April 13, 2023\n\nComment period closed June 12…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-235-P",
+                  "path": "1,HTML,2,BODY,7,DIV,1,DIV,2,DIV,1,DIV,8,UL,2,UL,1,P",
+                  "selector": "div#inner-content > ul > ul > p",
+                  "boundingRect": {
+                    "top": 710,
+                    "bottom": 710,
+                    "left": 99,
+                    "right": 393,
+                    "width": 294,
+                    "height": 0
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "div#inner-content > ul > ul > p"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-236-UL",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,2,DIV,1,DIV,8,UL,13,UL",
+            "selector": "div#content > div#inner-content > ul > ul",
+            "boundingRect": {
+              "top": 1040,
+              "bottom": 1355,
+              "left": 59,
+              "right": 393,
+              "width": 334,
+              "height": 315
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "NSF has partnered with the National Institutes of Health (NIH) to use SciENcv: …",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-237-P",
+                  "path": "1,HTML,2,BODY,7,DIV,1,DIV,2,DIV,1,DIV,8,UL,13,UL,1,P",
+                  "selector": "div#inner-content > ul > ul > p",
+                  "boundingRect": {
+                    "top": 1140,
+                    "bottom": 1140,
+                    "left": 99,
+                    "right": 393,
+                    "width": 294,
+                    "height": 0
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "div#inner-content > ul > ul > p"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-238-P",
+                  "path": "1,HTML,2,BODY,7,DIV,1,DIV,2,DIV,1,DIV,8,UL,13,UL,3,P",
+                  "selector": "div#inner-content > ul > ul > p",
+                  "boundingRect": {
+                    "top": 1355,
+                    "bottom": 1355,
+                    "left": 99,
+                    "right": 393,
+                    "width": 294,
+                    "height": 0
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "div#inner-content > ul > ul > p"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-227-UL",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,2,DIV,1,DIV,8,UL,17,UL",
+            "selector": "div#content > div#inner-content > ul > ul",
+            "boundingRect": {
+              "top": 1475,
+              "bottom": 3535,
+              "left": 59,
+              "right": 393,
+              "width": 334,
+              "height": 2060
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "NSTC Research Security Subcommittee NSPM-33 Implementation Guidance Disclosure …",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-239-P",
+                  "path": "1,HTML,2,BODY,7,DIV,1,DIV,2,DIV,1,DIV,8,UL,17,UL,1,P",
+                  "selector": "div#inner-content > ul > ul > p",
+                  "boundingRect": {
+                    "top": 1535,
+                    "bottom": 1535,
+                    "left": 99,
+                    "right": 393,
+                    "width": 294,
+                    "height": 0
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "div#inner-content > ul > ul > p"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-240-UL",
+                  "path": "1,HTML,2,BODY,7,DIV,1,DIV,2,DIV,1,DIV,8,UL,17,UL,2,UL",
+                  "selector": "div#inner-content > ul > ul > ul",
+                  "boundingRect": {
+                    "top": 1550,
+                    "bottom": 1800,
+                    "left": 99,
+                    "right": 393,
+                    "width": 294,
+                    "height": 250
+                  },
+                  "snippet": "<ul>",
+                  "nodeLabel": "Included on the NSTC Research Security Subcommittee page are the Federal Regist…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-241-P",
+                  "path": "1,HTML,2,BODY,7,DIV,1,DIV,2,DIV,1,DIV,8,UL,17,UL,3,P",
+                  "selector": "div#inner-content > ul > ul > p",
+                  "boundingRect": {
+                    "top": 1800,
+                    "bottom": 1800,
+                    "left": 99,
+                    "right": 393,
+                    "width": 294,
+                    "height": 0
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "div#inner-content > ul > ul > p"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-240-UL",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,2,DIV,1,DIV,8,UL,17,UL,2,UL",
+            "selector": "div#inner-content > ul > ul > ul",
+            "boundingRect": {
+              "top": 1550,
+              "bottom": 1800,
+              "left": 99,
+              "right": 393,
+              "width": 294,
+              "height": 250
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "Included on the NSTC Research Security Subcommittee page are the Federal Regist…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-242-P",
+                  "path": "1,HTML,2,BODY,7,DIV,1,DIV,2,DIV,1,DIV,8,UL,17,UL,2,UL,1,P",
+                  "selector": "ul > ul > ul > p",
+                  "boundingRect": {
+                    "top": 1670,
+                    "bottom": 1670,
+                    "left": 139,
+                    "right": 393,
+                    "width": 254,
+                    "height": 0
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "ul > ul > ul > p"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-243-P",
+                  "path": "1,HTML,2,BODY,7,DIV,1,DIV,2,DIV,1,DIV,8,UL,17,UL,2,UL,3,P",
+                  "selector": "ul > ul > ul > p",
+                  "boundingRect": {
+                    "top": 1725,
+                    "bottom": 1725,
+                    "left": 139,
+                    "right": 393,
+                    "width": 254,
+                    "height": 0
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "ul > ul > ul > p"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-244-UL",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,2,DIV,1,DIV,8,UL,17,UL,20,UL",
+            "selector": "div#inner-content > ul > ul > ul",
+            "boundingRect": {
+              "top": 2410,
+              "bottom": 3105,
+              "left": 99,
+              "right": 393,
+              "width": 294,
+              "height": 695
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "Implementation of the 2nd NSB Cost Sharing Report: NSF Revised Cost Sharing Pol…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-245-UL",
+                  "path": "1,HTML,2,BODY,7,DIV,1,DIV,2,DIV,1,DIV,8,UL,17,UL,20,UL,4,UL",
+                  "selector": "ul > ul > ul > ul",
+                  "boundingRect": {
+                    "top": 2550,
+                    "bottom": 2810,
+                    "left": 139,
+                    "right": 393,
+                    "width": 254,
+                    "height": 260
+                  },
+                  "snippet": "<ul>",
+                  "nodeLabel": "Enabling Access to Cloud Computing Resources for CISE Research and Education (C…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-246-P",
+                  "path": "1,HTML,2,BODY,7,DIV,1,DIV,2,DIV,1,DIV,8,UL,17,UL,20,UL,5,P",
+                  "selector": "ul > ul > ul > p",
+                  "boundingRect": {
+                    "top": 2810,
+                    "bottom": 2810,
+                    "left": 139,
+                    "right": 393,
+                    "width": 254,
+                    "height": 0
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "ul > ul > ul > p"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-247-UL",
+                  "path": "1,HTML,2,BODY,7,DIV,1,DIV,2,DIV,1,DIV,8,UL,17,UL,20,UL,7,UL",
+                  "selector": "ul > ul > ul > ul",
+                  "boundingRect": {
+                    "top": 2865,
+                    "bottom": 3105,
+                    "left": 139,
+                    "right": 393,
+                    "width": 254,
+                    "height": 240
+                  },
+                  "snippet": "<ul>",
+                  "nodeLabel": "Computing Innovation Fellows Project 2021, Award No. 2127309, Prime Awardee: Co…"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-248-UL",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,2,DIV,1,DIV,8,UL,17,UL,28,UL",
+            "selector": "div#inner-content > ul > ul > ul",
+            "boundingRect": {
+              "top": 3280,
+              "bottom": 3500,
+              "left": 99,
+              "right": 393,
+              "width": 294,
+              "height": 220
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "NSF Grants.gov Application Guide (NSF 23-006) - effective for applications subm…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-249-BR",
+                  "path": "1,HTML,2,BODY,7,DIV,1,DIV,2,DIV,1,DIV,8,UL,17,UL,28,UL,1,BR",
+                  "selector": "ul > ul > ul > br",
+                  "boundingRect": {
+                    "top": 3362,
+                    "bottom": 3378,
+                    "left": 139,
+                    "right": 139,
+                    "width": 0,
+                    "height": 16
+                  },
+                  "snippet": "<br>",
+                  "nodeLabel": "ul > ul > ul > br"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-250-UL",
+                  "path": "1,HTML,2,BODY,7,DIV,1,DIV,2,DIV,1,DIV,8,UL,17,UL,28,UL,2,UL",
+                  "selector": "ul > ul > ul > ul",
+                  "boundingRect": {
+                    "top": 3380,
+                    "bottom": 3500,
+                    "left": 139,
+                    "right": 393,
+                    "width": 254,
+                    "height": 120
+                  },
+                  "snippet": "<ul>",
+                  "nodeLabel": "For applications submitted (via Grants.gov) or due prior to January 30, 2023, t…"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-251-P",
+                  "path": "1,HTML,2,BODY,7,DIV,1,DIV,2,DIV,1,DIV,8,UL,17,UL,28,UL,3,P",
+                  "selector": "ul > ul > ul > p",
+                  "boundingRect": {
+                    "top": 3500,
+                    "bottom": 3500,
+                    "left": 139,
+                    "right": 393,
+                    "width": 254,
+                    "height": 0
+                  },
+                  "snippet": "<p>",
+                  "nodeLabel": "ul > ul > ul > p"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-250-UL",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,2,DIV,1,DIV,8,UL,17,UL,28,UL,2,UL",
+            "selector": "ul > ul > ul > ul",
+            "boundingRect": {
+              "top": 3380,
+              "bottom": 3500,
+              "left": 139,
+              "right": 393,
+              "width": 254,
+              "height": 120
+            },
+            "snippet": "<ul>",
+            "nodeLabel": "For applications submitted (via Grants.gov) or due prior to January 30, 2023, t…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-252-UL",
+                  "path": "1,HTML,2,BODY,7,DIV,1,DIV,2,DIV,1,DIV,8,UL,17,UL,28,UL,2,UL,1,UL",
+                  "selector": "ul > ul > ul > ul",
+                  "boundingRect": {
+                    "top": 3500,
+                    "bottom": 3500,
+                    "left": 179,
+                    "right": 393,
+                    "width": 214,
+                    "height": 0
+                  },
+                  "snippet": "<ul>",
+                  "nodeLabel": "ul > ul > ul > ul"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 8
+  }
+]
