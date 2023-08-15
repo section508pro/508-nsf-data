@@ -1,0 +1,367 @@
+[
+  {
+    "id": "duplicate-id-active",
+    "title": "`[id]` attributes on active, focusable elements are not unique",
+    "description": "All focusable elements must have a unique `id` to ensure that they're visible to assistive technologies. [Learn more](https://web.dev/duplicate-id-active/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-223-DIV",
+            "path": "2,HTML,1,BODY,7,DIV,1,DIV,1,DIV",
+            "selector": "body > div.container > div.row > div#content",
+            "boundingRect": {
+              "top": 162,
+              "bottom": 1362,
+              "left": 383,
+              "right": 1260,
+              "width": 878,
+              "height": 1200
+            },
+            "snippet": "<div class=\"col-md-9\" id=\"content\" tabindex=\"-1\" role=\"main\">",
+            "nodeLabel": "Home Research Areas STEM Education\n Email\n Print\n Share\nEquity for Excellence i…",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: content"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-91-A",
+                  "path": "2,HTML,1,BODY,7,DIV,1,DIV,1,DIV,1,DIV,1,A",
+                  "selector": "div.row > div#content > div > a#content",
+                  "boundingRect": {
+                    "top": 507,
+                    "bottom": 507,
+                    "left": 398,
+                    "right": 398,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a name=\"content\" id=\"content\">",
+                  "nodeLabel": "div.row > div#content > div > a#content"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.parsing",
+          "wcag2a",
+          "wcag411"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-224-UL",
+            "path": "2,HTML,1,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL",
+            "selector": "div.row > div#leftnavdividcontainer > div#leftnavdivid > ul.nav",
+            "boundingRect": {
+              "top": 162,
+              "bottom": 887,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 725
+            },
+            "snippet": "<ul class=\"nav nav-stacked left-nav\">",
+            "nodeLabel": "STEM Education (EDU)\nSTEM Education (EDU) Home\nGraduate Education (DGE)\nResearc…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-225-UL",
+                  "path": "2,HTML,1,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,8,UL",
+                  "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > ul.dropdown-list",
+                  "boundingRect": {
+                    "top": 448,
+                    "bottom": 776,
+                    "left": 65,
+                    "right": 368,
+                    "width": 303,
+                    "height": 328
+                  },
+                  "snippet": "<ul class=\"dropdown-list\">",
+                  "nodeLabel": "About\nPrograms\nStaff\nFunding\nAwards\nNews\nEvents\nAdditional Resources"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-226-DIV",
+                  "path": "2,HTML,1,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,9,DIV",
+                  "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > div.add-references",
+                  "boundingRect": {
+                    "top": 776,
+                    "bottom": 887,
+                    "left": 105,
+                    "right": 368,
+                    "width": 263,
+                    "height": 111
+                  },
+                  "snippet": "<div class=\"add-references nav nav-stacked left-nav\">",
+                  "nodeLabel": "Get EDU Email Updates  GO\n Contact EDU/EES"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-227-UL",
+            "path": "2,HTML,1,BODY,7,DIV,1,DIV,1,DIV,1,DIV,2,DIV,0,DIV,0,DIV,4,UL",
+            "selector": "div.row > div.col-sm-5 > div.panel > ul.list-group",
+            "boundingRect": {
+              "top": 564,
+              "bottom": 671,
+              "left": 415,
+              "right": 716,
+              "width": 302,
+              "height": 107
+            },
+            "snippet": "<ul class=\"list-group\">",
+            "nodeLabel": "Tribal Nations Listening Sessions Read More ›\nHRD Celebrates 30th Anniversary R…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-228-DIV",
+                  "path": "2,HTML,1,BODY,7,DIV,1,DIV,1,DIV,1,DIV,2,DIV,0,DIV,0,DIV,4,UL,2,DIV",
+                  "selector": "div.col-sm-5 > div.panel > ul.list-group > div.panel-footer",
+                  "boundingRect": {
+                    "top": 635,
+                    "bottom": 671,
+                    "left": 430,
+                    "right": 701,
+                    "width": 272,
+                    "height": 36
+                  },
+                  "snippet": "<div class=\"panel-footer\">",
+                  "nodeLabel": "See All ›\nAnnouncements"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-229-UL",
+            "path": "2,HTML,1,BODY,7,DIV,1,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,2,UL",
+            "selector": "div.row > div.col-sm-4 > div.panel > ul.list-group",
+            "boundingRect": {
+              "top": 916,
+              "bottom": 1181,
+              "left": 415,
+              "right": 643,
+              "width": 228,
+              "height": 265
+            },
+            "snippet": "<ul class=\"list-group\">",
+            "nodeLabel": "National Artificial Intelligence (AI) Research Institutes\n\n(NSF 23-610) POSTED …",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-230-DIV",
+                  "path": "2,HTML,1,BODY,7,DIV,1,DIV,1,DIV,1,DIV,3,DIV,0,DIV,0,DIV,2,UL,3,DIV",
+                  "selector": "div.col-sm-4 > div.panel > ul.list-group > div.panel-footer",
+                  "boundingRect": {
+                    "top": 1145,
+                    "bottom": 1181,
+                    "left": 430,
+                    "right": 628,
+                    "width": 198,
+                    "height": 36
+                  },
+                  "snippet": "<div class=\"panel-footer\">",
+                  "nodeLabel": "See All ›"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-231-UL",
+            "path": "2,HTML,1,BODY,7,DIV,1,DIV,1,DIV,1,DIV,3,DIV,1,DIV,0,DIV,2,UL",
+            "selector": "div.row > div.col-sm-4 > div.panel > ul.list-group",
+            "boundingRect": {
+              "top": 916,
+              "bottom": 1341,
+              "left": 707,
+              "right": 935,
+              "width": 228,
+              "height": 425
+            },
+            "snippet": "<ul class=\"list-group\">",
+            "nodeLabel": "Alliances for Graduate Education and the Professoriate\n(NSF 21-576) FULL PROPOS…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-232-DIV",
+                  "path": "2,HTML,1,BODY,7,DIV,1,DIV,1,DIV,1,DIV,3,DIV,1,DIV,0,DIV,2,UL,3,DIV",
+                  "selector": "div.col-sm-4 > div.panel > ul.list-group > div.panel-footer",
+                  "boundingRect": {
+                    "top": 1305,
+                    "bottom": 1341,
+                    "left": 722,
+                    "right": 920,
+                    "width": 198,
+                    "height": 36
+                  },
+                  "snippet": "<div class=\"panel-footer\">",
+                  "nodeLabel": "See All ›\nUpcoming Due Dates"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 4
+  },
+  {
+    "id": "listitem",
+    "title": "List items (`<li>`) are not contained within `<ul>` or `<ol>` parent elements.",
+    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>` or `<ol>` to be announced properly. [Learn more](https://web.dev/listitem/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-233-LI",
+            "path": "2,HTML,1,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,9,DIV,0,LI",
+            "selector": "div#leftnavdivid > ul.nav > div.add-references > li",
+            "boundingRect": {
+              "top": 776,
+              "bottom": 849,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 73
+            },
+            "snippet": "<li>",
+            "nodeLabel": "Get EDU Email Updates  GO",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-234-LI",
+            "path": "2,HTML,1,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,9,DIV,1,LI",
+            "selector": "div#leftnavdivid > ul.nav > div.add-references > li",
+            "boundingRect": {
+              "top": 849,
+              "bottom": 887,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 38
+            },
+            "snippet": "<li>",
+            "nodeLabel": " Contact EDU/EES",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 2
+  }
+]

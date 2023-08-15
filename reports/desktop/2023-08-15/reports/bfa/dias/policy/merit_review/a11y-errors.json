@@ -1,0 +1,147 @@
+[
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-270-UL",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL",
+            "selector": "div.row > div#leftnavdividcontainer > div#leftnavdivid > ul.nav",
+            "boundingRect": {
+              "top": 162,
+              "bottom": 967,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 805
+            },
+            "snippet": "<ul class=\"nav nav-stacked left-nav\">",
+            "nodeLabel": "Office of Budget Finance and Award Management (BFA)\nOffice of Budget, Finance, …",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-271-UL",
+                  "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,7,UL",
+                  "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > ul.dropdown-list",
+                  "boundingRect": {
+                    "top": 529,
+                    "bottom": 693,
+                    "left": 65,
+                    "right": 368,
+                    "width": 303,
+                    "height": 164
+                  },
+                  "snippet": "<ul class=\"dropdown-list\">",
+                  "nodeLabel": "Policy Office\nCAP Branch\nRAM Branch\nSystems Office"
+                }
+              },
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-272-DIV",
+                  "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,13,DIV",
+                  "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > div.add-references",
+                  "boundingRect": {
+                    "top": 917,
+                    "bottom": 967,
+                    "left": 105,
+                    "right": 368,
+                    "width": 263,
+                    "height": 50
+                  },
+                  "snippet": "<div class=\"add-references nav nav-stacked left-nav\">",
+                  "nodeLabel": " Contact BFA"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "listitem",
+    "title": "List items (`<li>`) are not contained within `<ul>` or `<ol>` parent elements.",
+    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>` or `<ol>` to be announced properly. [Learn more](https://web.dev/listitem/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-273-LI",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,13,DIV,0,LI",
+            "selector": "div#leftnavdivid > ul.nav > div.add-references > li",
+            "boundingRect": {
+              "top": 917,
+              "bottom": 967,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 50
+            },
+            "snippet": "<li>",
+            "nodeLabel": " Contact BFA",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

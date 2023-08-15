@@ -1,0 +1,499 @@
+[
+  {
+    "id": "aria-required-children",
+    "title": "Elements with an ARIA `[role]` that require children to contain a specific `[role]` are missing some or all of those required children.",
+    "description": "Some ARIA parent roles must contain specific child roles to perform their intended accessibility functions. [Learn more](https://web.dev/aria-required-children/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-241-UL",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,8,UL",
+            "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > ul.dropdown-list",
+            "boundingRect": {
+              "top": 509,
+              "bottom": 570,
+              "left": 65,
+              "right": 368,
+              "width": 303,
+              "height": 61
+            },
+            "snippet": "<ul class=\"dropdown-list\" role=\"menu\">",
+            "nodeLabel": "Chief FOIA Officer and NSF FOIA Service Center/Liaison",
+            "explanation": "Fix any of the following:\n  Required ARIA children role not present: group, menuitemradio, menuitem, menuitemcheckbox"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "aria-required-parent",
+    "title": "`[role]`s are not contained by their required parent element",
+    "description": "Some ARIA child roles must be contained by specific parent roles to properly perform their intended accessibility functions. [Learn more](https://web.dev/aria-required-parent/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-226-LI",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,2,LI",
+            "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > li",
+            "boundingRect": {
+              "top": 223,
+              "bottom": 264,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 41
+            },
+            "snippet": "<li role=\"menuitem\">",
+            "nodeLabel": "Web Policies and Important Links",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: menu, menubar, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-227-LI",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,3,LI",
+            "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > li",
+            "boundingRect": {
+              "top": 264,
+              "bottom": 305,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 41
+            },
+            "snippet": "<li role=\"menuitem\">",
+            "nodeLabel": "Quality Standards",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: menu, menubar, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-228-LI",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,4,LI",
+            "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > li",
+            "boundingRect": {
+              "top": 305,
+              "bottom": 346,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 41
+            },
+            "snippet": "<li role=\"menuitem\">",
+            "nodeLabel": "Conflicts of Interest",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: menu, menubar, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-229-LI",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,5,LI",
+            "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > li",
+            "boundingRect": {
+              "top": 346,
+              "bottom": 407,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 61
+            },
+            "snippet": "<li role=\"menuitem\">",
+            "nodeLabel": "Copyright and Reuse of Visual Media and Text",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: menu, menubar, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-230-LI",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,6,LI",
+            "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > li",
+            "boundingRect": {
+              "top": 407,
+              "bottom": 448,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 41
+            },
+            "snippet": "<li role=\"menuitem\">",
+            "nodeLabel": "Use of NSF Logos",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: menu, menubar, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-231-LI",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,9,LI",
+            "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > li",
+            "boundingRect": {
+              "top": 570,
+              "bottom": 611,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 41
+            },
+            "snippet": "<li role=\"menuitem\">",
+            "nodeLabel": "Links to External Sites",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: menu, menubar, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-232-LI",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,10,LI",
+            "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > li",
+            "boundingRect": {
+              "top": 611,
+              "bottom": 652,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 41
+            },
+            "snippet": "<li role=\"menuitem\">",
+            "nodeLabel": "Privacy Policy",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: menu, menubar, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-233-LI",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,11,LI",
+            "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > li",
+            "boundingRect": {
+              "top": 652,
+              "bottom": 693,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 41
+            },
+            "snippet": "<li role=\"menuitem\">",
+            "nodeLabel": "Privacy Program",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: menu, menubar, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-234-LI",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,12,LI",
+            "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > li",
+            "boundingRect": {
+              "top": 693,
+              "bottom": 734,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 41
+            },
+            "snippet": "<li role=\"menuitem\">",
+            "nodeLabel": "Web Accessibility",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: menu, menubar, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-235-LI",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,13,LI",
+            "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > li",
+            "boundingRect": {
+              "top": 734,
+              "bottom": 775,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 41
+            },
+            "snippet": "<li role=\"menuitem\">",
+            "nodeLabel": "No FEAR Act Data",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: menu, menubar, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-236-LI",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,14,LI",
+            "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > li",
+            "boundingRect": {
+              "top": 775,
+              "bottom": 816,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 41
+            },
+            "snippet": "<li role=\"menuitem\">",
+            "nodeLabel": "e-Gov Initiatives",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: menu, menubar, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-237-LI",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,15,LI",
+            "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > li",
+            "boundingRect": {
+              "top": 816,
+              "bottom": 857,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 41
+            },
+            "snippet": "<li role=\"menuitem\">",
+            "nodeLabel": "e-Gov Content Inventory",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: menu, menubar, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-238-LI",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,16,LI",
+            "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > li",
+            "boundingRect": {
+              "top": 857,
+              "bottom": 898,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 41
+            },
+            "snippet": "<li role=\"menuitem\">",
+            "nodeLabel": "Performance Assessment",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: menu, menubar, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-239-LI",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,18,LI",
+            "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > li",
+            "boundingRect": {
+              "top": 939,
+              "bottom": 980,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 41
+            },
+            "snippet": "<li role=\"menuitem\">",
+            "nodeLabel": "Plain Language",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: menu, menubar, group"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-240-LI",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,19,LI",
+            "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > li",
+            "boundingRect": {
+              "top": 980,
+              "bottom": 1041,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 61
+            },
+            "snippet": "<li role=\"menuitem\">",
+            "nodeLabel": "Domain-based Messaging and Reporting Compliance (DMARC)",
+            "explanation": "Fix any of the following:\n  Required ARIA parents role not present: menu, menubar, group"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 15
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-242-UL",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL",
+            "selector": "div.row > div#leftnavdividcontainer > div#leftnavdivid > ul.nav",
+            "boundingRect": {
+              "top": 162,
+              "bottom": 1041,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 879
+            },
+            "snippet": "<ul class=\"nav nav-stacked left-nav\">",
+            "nodeLabel": "National Science Foundation (NSF)\nWeb Policies and Important Links\nQuality Stan…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-241-UL",
+                  "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,8,UL",
+                  "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > ul.dropdown-list",
+                  "boundingRect": {
+                    "top": 509,
+                    "bottom": 570,
+                    "left": 65,
+                    "right": 368,
+                    "width": 303,
+                    "height": 61
+                  },
+                  "snippet": "<ul class=\"dropdown-list\" role=\"menu\">",
+                  "nodeLabel": "Chief FOIA Officer and NSF FOIA Service Center/Liaison"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "listitem",
+    "title": "List items (`<li>`) are not contained within `<ul>` or `<ol>` parent elements.",
+    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>` or `<ol>` to be announced properly. [Learn more](https://web.dev/listitem/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-243-LI",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,8,UL,0,LI",
+            "selector": "div#leftnavdivid > ul.nav > ul.dropdown-list > li",
+            "boundingRect": {
+              "top": 509,
+              "bottom": 570,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 61
+            },
+            "snippet": "<li>",
+            "nodeLabel": "Chief FOIA Officer and NSF FOIA Service Center/Liaison",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
