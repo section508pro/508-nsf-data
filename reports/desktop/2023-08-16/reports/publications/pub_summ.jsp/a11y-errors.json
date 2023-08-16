@@ -1,0 +1,77 @@
+[
+  {
+    "id": "duplicate-id-active",
+    "title": "`[id]` attributes on active, focusable elements are not unique",
+    "description": "All focusable elements must have a unique `id` to ensure that they're visible to assistive technologies. [Learn more](https://web.dev/duplicate-id-active/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-185-DIV",
+            "path": "2,HTML,1,BODY,7,DIV,1,DIV,1,DIV",
+            "selector": "body > div.container > div.row > div#content",
+            "boundingRect": {
+              "top": 162,
+              "bottom": 418,
+              "left": 383,
+              "right": 1260,
+              "width": 878,
+              "height": 256
+            },
+            "snippet": "<div class=\"col-md-9\" id=\"content\" tabindex=\"-1\" role=\"main\">",
+            "nodeLabel": "Home Document Library\n Email\n Print\n Share\nPublication\nWe're sorry, the request…",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: content"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-79-A",
+                  "path": "2,HTML,1,BODY,7,DIV,1,DIV,1,DIV,1,DIV,4,A",
+                  "selector": "div.row > div#content > div#inner-content > a#content",
+                  "boundingRect": {
+                    "top": 201,
+                    "bottom": 201,
+                    "left": 417,
+                    "right": 417,
+                    "width": 0,
+                    "height": 0
+                  },
+                  "snippet": "<a name=\"content\" id=\"content\">",
+                  "nodeLabel": "div.row > div#content > div#inner-content > a#content"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.parsing",
+          "wcag2a",
+          "wcag411"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]

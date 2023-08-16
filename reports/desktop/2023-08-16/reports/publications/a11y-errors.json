@@ -1,0 +1,77 @@
+[
+  {
+    "id": "duplicate-id-active",
+    "title": "`[id]` attributes on active, focusable elements are not unique",
+    "description": "All focusable elements must have a unique `id` to ensure that they're visible to assistive technologies. [Learn more](https://web.dev/duplicate-id-active/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-362-FORM",
+            "path": "3,HTML,1,BODY,4,DIV,1,HEADER,1,SECTION,0,DIV,2,NAV,0,DIV,1,DIV,0,SECTION,0,DIV,0,DIV,0,FORM",
+            "selector": "section > div#block-sitesearch > div.clearfix > form#search1",
+            "boundingRect": {
+              "top": 46,
+              "bottom": 78,
+              "left": 1043,
+              "right": 1259,
+              "width": 216,
+              "height": 32
+            },
+            "snippet": "<form accept-charset=\"UTF-8\" action=\"https://search.nsf.gov/search\" aria-label=\"Site\" class=\"site-search\" id=\"search1\" method=\"get\" name=\"siteSearchForm\" role=\"search\">",
+            "nodeLabel": "Search\nsearch",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: search1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-359-BUTTON",
+                  "path": "3,HTML,1,BODY,7,DIV,1,DIV,1,DIV,1,DIV,5,FORM,2,DIV,2,DIV,0,BUTTON",
+                  "selector": "form#NSFPublicationsListForm > div.row > div.col-sm-2 > button#search1",
+                  "boundingRect": {
+                    "top": 366,
+                    "bottom": 399,
+                    "left": 1106,
+                    "right": 1157,
+                    "width": 51,
+                    "height": 33
+                  },
+                  "snippet": "<button type=\"submit\" name=\"search1\" id=\"search1\" class=\"btn btn-primary\">",
+                  "nodeLabel": "GO"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.parsing",
+          "wcag2a",
+          "wcag411"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
