@@ -1,0 +1,77 @@
+[
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-191-SPAN",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,2,DIV,1,DIV,2,P,0,B,1,SPAN",
+            "selector": "div#inner-content > p > b > span.style5",
+            "boundingRect": {
+              "top": 297,
+              "bottom": 433,
+              "left": 19,
+              "right": 389,
+              "width": 370,
+              "height": 136
+            },
+            "snippet": "<span class=\"style5\">",
+            "nodeLabel": "Effective January 14, 2013, the National Science Foundation implemented revised…",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 3.77 (foreground color: #009900, background color: #ffffff, font size: 10.5pt (14px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-192-DIV",
+                  "path": "1,HTML,2,BODY,7,DIV,1,DIV,2,DIV,1,DIV",
+                  "selector": "div.container > div.row > div#content > div#inner-content",
+                  "boundingRect": {
+                    "top": 215,
+                    "bottom": 487,
+                    "left": 0,
+                    "right": 412,
+                    "width": 412,
+                    "height": 272
+                  },
+                  "snippet": "<div id=\"inner-content\" class=\"panel panel-orange\">",
+                  "nodeLabel": "Merit Review\n\nNOTICE: Effective January 14, 2013, the National Science Foundati…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 1
+  }
+]
