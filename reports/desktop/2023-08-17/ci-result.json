@@ -1,0 +1,306 @@
+[
+  {
+    "path": "/",
+    "score": 0.98,
+    "performance": 0.99,
+    "accessibility": 1,
+    "best-practices": 1,
+    "seo": 0.92
+  },
+  {
+    "path": "/about/budget/",
+    "score": 0.92,
+    "performance": 0.96,
+    "accessibility": 0.9,
+    "best-practices": 0.92,
+    "seo": 0.91
+  },
+  {
+    "path": "/awards/about.jsp",
+    "score": 0.95,
+    "performance": 0.95,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.91
+  },
+  {
+    "path": "/awards/managing/award_conditions.jsp",
+    "score": 0.95,
+    "performance": 0.96,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.91
+  },
+  {
+    "path": "/bfa/",
+    "score": 0.93,
+    "performance": 0.92,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.91
+  },
+  {
+    "path": "/bfa/dias/policy/",
+    "score": 0.94,
+    "performance": 0.96,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.91
+  },
+  {
+    "path": "/bfa/dias/policy/guidance.jsp",
+    "score": 0.94,
+    "performance": 0.95,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.91
+  },
+  {
+    "path": "/bfa/dias/policy/merit_review/",
+    "score": 0.94,
+    "performance": 0.97,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 0.91
+  },
+  {
+    "path": "/bfa/dias/policy/meritreview/",
+    "score": 0.91,
+    "performance": 0.96,
+    "accessibility": 0.94,
+    "best-practices": 0.83,
+    "seo": 0.91
+  },
+  {
+    "path": "/dir/index.jsp",
+    "score": 0.93,
+    "performance": 0.82,
+    "accessibility": 0.96,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/div/index.jsp",
+    "score": 0.88,
+    "performance": 0.63,
+    "accessibility": 0.95,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/help/",
+    "score": 0.93,
+    "performance": 0.96,
+    "accessibility": 0.94,
+    "best-practices": 0.92,
+    "seo": 0.91
+  },
+  {
+    "path": "/news/archive.jsp",
+    "score": 0.95,
+    "performance": 0.95,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.91
+  },
+  {
+    "path": "/news/mmg/index.jsp",
+    "score": 0.82,
+    "performance": 0.84,
+    "accessibility": 0.77,
+    "best-practices": 0.75,
+    "seo": 0.91
+  },
+  {
+    "path": "/news/newsroom.jsp",
+    "score": 0.91,
+    "performance": 0.91,
+    "accessibility": 0.98,
+    "best-practices": 0.92,
+    "seo": 0.82
+  },
+  {
+    "path": "/news/priority_areas/",
+    "score": 0.88,
+    "performance": 0.99,
+    "accessibility": 0.95,
+    "best-practices": 0.83,
+    "seo": 0.73
+  },
+  {
+    "path": "/news/search.jsp",
+    "score": 0.95,
+    "performance": 0.91,
+    "accessibility": 0.98,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/news/special_reports/",
+    "score": 0.96,
+    "performance": 0.91,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/news/speeches/",
+    "score": 0.95,
+    "performance": 0.91,
+    "accessibility": 0.98,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/nsb/",
+    "score": 0.83,
+    "performance": 0.79,
+    "accessibility": 0.87,
+    "best-practices": 0.75,
+    "seo": 0.91
+  },
+  {
+    "path": "/od/",
+    "score": 0.94,
+    "performance": 0.96,
+    "accessibility": 0.98,
+    "best-practices": 0.92,
+    "seo": 0.91
+  },
+  {
+    "path": "/od/lpa/",
+    "score": 0.95,
+    "performance": 0.96,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.91
+  },
+  {
+    "path": "/od/oeo/nofear/nofearfinalcover.jsp",
+    "score": 0.95,
+    "performance": 0.95,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.91
+  },
+  {
+    "path": "/oirm/",
+    "score": 0.93,
+    "performance": 0.96,
+    "accessibility": 0.94,
+    "best-practices": 0.92,
+    "seo": 0.91
+  },
+  {
+    "path": "/policies/",
+    "score": 0.93,
+    "performance": 0.96,
+    "accessibility": 0.94,
+    "best-practices": 0.92,
+    "seo": 0.91
+  },
+  {
+    "path": "/policies/access.jsp",
+    "score": 0.93,
+    "performance": 0.96,
+    "accessibility": 0.94,
+    "best-practices": 0.92,
+    "seo": 0.91
+  },
+  {
+    "path": "/policies/conflicts.jsp",
+    "score": 0.93,
+    "performance": 0.95,
+    "accessibility": 0.94,
+    "best-practices": 0.92,
+    "seo": 0.91
+  },
+  {
+    "path": "/policies/egov.jsp",
+    "score": 0.93,
+    "performance": 0.96,
+    "accessibility": 0.94,
+    "best-practices": 0.92,
+    "seo": 0.91
+  },
+  {
+    "path": "/policies/foia.jsp",
+    "score": 0.91,
+    "performance": 0.94,
+    "accessibility": 0.85,
+    "best-practices": 0.92,
+    "seo": 0.91
+  },
+  {
+    "path": "/policies/infoqual.jsp",
+    "score": 0.94,
+    "performance": 0.97,
+    "accessibility": 0.94,
+    "best-practices": 0.92,
+    "seo": 0.91
+  },
+  {
+    "path": "/policies/links.jsp",
+    "score": 0.93,
+    "performance": 0.96,
+    "accessibility": 0.94,
+    "best-practices": 0.92,
+    "seo": 0.91
+  },
+  {
+    "path": "/policies/logos.jsp",
+    "score": 0.93,
+    "performance": 0.94,
+    "accessibility": 0.94,
+    "best-practices": 0.92,
+    "seo": 0.91
+  },
+  {
+    "path": "/policies/privacy.jsp",
+    "score": 0.93,
+    "performance": 0.96,
+    "accessibility": 0.94,
+    "best-practices": 0.92,
+    "seo": 0.91
+  },
+  {
+    "path": "/publications/",
+    "score": 0.97,
+    "performance": 0.96,
+    "accessibility": 0.98,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/publications/obtain.jsp",
+    "score": 0.95,
+    "performance": 0.96,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 0.91
+  },
+  {
+    "path": "/publications/ods/",
+    "score": 0.96,
+    "performance": 0.91,
+    "accessibility": 1,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/publications/pub_summ.jsp",
+    "score": 0.95,
+    "performance": 0.9,
+    "accessibility": 0.98,
+    "best-practices": 0.92,
+    "seo": 1
+  },
+  {
+    "path": "/staff/",
+    "score": 0.96,
+    "performance": 0.95,
+    "accessibility": 0.98,
+    "best-practices": 0.92,
+    "seo": 1
+  }
+]

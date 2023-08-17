@@ -1,0 +1,900 @@
+[
+  {
+    "id": "button-name",
+    "title": "Buttons do not have an accessible name",
+    "description": "When a button doesn't have an accessible name, screen readers announce it as \"button\", making it unusable for users who rely on screen readers. [Learn more](https://web.dev/button-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-250-BUTTON",
+            "path": "3,HTML,1,BODY,7,DIV,1,DIV,0,DIV,1,DIV,2,DIV,0,DIV,0,DIV,1,FORM,1,DIV,0,DIV,1,BUTTON",
+            "selector": "form#mmg_search > div.row > div.form-group > button.search",
+            "boundingRect": {
+              "top": 280,
+              "bottom": 314,
+              "left": 1102,
+              "right": 1209,
+              "width": 107,
+              "height": 34
+            },
+            "snippet": "<button style=\"width: 10%; height: 34px\" type=\"submit\" class=\"search\">",
+            "nodeLabel": "form#mmg_search > div.row > div.form-group > button.search",
+            "explanation": "Fix any of the following:\n  Element does not have inner text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "color-contrast",
+    "title": "Background and foreground colors do not have a sufficient contrast ratio.",
+    "description": "Low-contrast text is difficult or impossible for many users to read. [Learn more](https://web.dev/color-contrast/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-253-STRONG",
+            "path": "3,HTML,1,BODY,7,DIV,1,DIV,0,DIV,1,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,DIV,4,A,0,H3,1,STRONG",
+            "selector": "div.col-md-12 > a > h3 > strong",
+            "boundingRect": {
+              "top": 476,
+              "bottom": 519,
+              "left": 622,
+              "right": 1037,
+              "width": 415,
+              "height": 43
+            },
+            "snippet": "<strong>",
+            "nodeLabel": "Colorized scanning electron microscope image of MXenes",
+            "explanation": "Fix any of the following:\n  Element has insufficient color contrast of 4.05 (foreground color: #0c72b5, background color: #e2e5e5, font size: 13.0pt (17.3333px), font weight: bold). Expected contrast ratio of 4.5:1"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-254-DIV",
+                  "path": "3,HTML,1,BODY,7,DIV,1,DIV,0,DIV,1,DIV,2,DIV,0,DIV,0,DIV,3,DIV",
+                  "selector": "div#inner-content > div#page-wrap > div#top > div#featuredimage",
+                  "boundingRect": {
+                    "top": 362,
+                    "bottom": 695,
+                    "left": 139,
+                    "right": 1211,
+                    "width": 1072,
+                    "height": 333
+                  },
+                  "snippet": "<div class=\"row\" id=\"featuredimage\">",
+                  "nodeLabel": "Featured Image\nAugust 11, 2023\n\nColorized scanning electron microscope image of…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.color",
+          "wcag2aa",
+          "wcag143"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "duplicate-id-active",
+    "title": "`[id]` attributes on active, focusable elements are not unique",
+    "description": "All focusable elements must have a unique `id` to ensure that they're visible to assistive technologies. [Learn more](https://web.dev/duplicate-id-active/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-85-A",
+            "path": "3,HTML,1,BODY,7,DIV,1,DIV,0,DIV,1,DIV,2,DIV,0,DIV,0,DIV,5,DIV,0,DIV,8,LI,0,A",
+            "selector": "div#overviews > div.col-md-12 > li > a#mmgsublink_9",
+            "boundingRect": {
+              "top": 727,
+              "bottom": 795,
+              "left": 851,
+              "right": 926,
+              "width": 75,
+              "height": 68
+            },
+            "snippet": "<a href=\"index.jsp?mmg_subjects=9&amp;rt_page=y\" id=\"mmgsublink_9\">",
+            "nodeLabel": "div#overviews > div.col-md-12 > li > a#mmgsublink_9",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: mmgsublink_9"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-86-A",
+                  "path": "3,HTML,1,BODY,7,DIV,1,DIV,0,DIV,1,DIV,2,DIV,0,DIV,0,DIV,5,DIV,0,DIV,8,LI,1,P,0,A",
+                  "selector": "div.col-md-12 > li > p > a#mmgsublink_9",
+                  "boundingRect": {
+                    "top": 796,
+                    "bottom": 814,
+                    "left": 851,
+                    "right": 929,
+                    "width": 78,
+                    "height": 18
+                  },
+                  "snippet": "<a href=\"index.jsp?mmg_subjects=9&amp;rt_page=y\" id=\"mmgsublink_9\">",
+                  "nodeLabel": "Mathematics"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-87-A",
+            "path": "3,HTML,1,BODY,7,DIV,1,DIV,0,DIV,1,DIV,2,DIV,0,DIV,0,DIV,5,DIV,0,DIV,9,LI,0,A",
+            "selector": "div#overviews > div.col-md-12 > li > a#mmgsublink_10",
+            "boundingRect": {
+              "top": 727,
+              "bottom": 795,
+              "left": 938,
+              "right": 1013,
+              "width": 75,
+              "height": 68
+            },
+            "snippet": "<a href=\"index.jsp?mmg_subjects=10&amp;rt_page=y\" id=\"mmgsublink_10\">",
+            "nodeLabel": "div#overviews > div.col-md-12 > li > a#mmgsublink_10",
+            "explanation": "Fix any of the following:\n  Document has active elements with the same id attribute: mmgsublink_10"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-88-A",
+                  "path": "3,HTML,1,BODY,7,DIV,1,DIV,0,DIV,1,DIV,2,DIV,0,DIV,0,DIV,5,DIV,0,DIV,9,LI,1,P,0,A",
+                  "selector": "div.col-md-12 > li > p > a#mmgsublink_10",
+                  "boundingRect": {
+                    "top": 796,
+                    "bottom": 814,
+                    "left": 938,
+                    "right": 1014,
+                    "width": 76,
+                    "height": 18
+                  },
+                  "snippet": "<a href=\"index.jsp?mmg_subjects=10&amp;rt_page=y\" id=\"mmgsublink_10\">",
+                  "nodeLabel": "Nanoscience"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.parsing",
+          "wcag2a",
+          "wcag411"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "heading-order",
+    "title": "Heading elements are not in a sequentially-descending order",
+    "description": "Properly ordered headings that do not skip levels convey the semantic structure of the page, making it easier to navigate and understand when using assistive technologies. [Learn more](https://web.dev/heading-order/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-255-H3",
+            "path": "3,HTML,1,BODY,7,DIV,1,DIV,0,DIV,1,DIV,2,DIV,0,DIV,0,DIV,3,DIV,0,DIV,0,H3",
+            "selector": "div#top > div#featuredimage > div.col-md-12 > h3",
+            "boundingRect": {
+              "top": 387,
+              "bottom": 412,
+              "left": 254,
+              "right": 1096,
+              "width": 842,
+              "height": 25
+            },
+            "snippet": "<h3>",
+            "nodeLabel": "Featured Image",
+            "explanation": "Fix any of the following:\n  Heading order invalid"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "moderate",
+        "tags": [
+          "cat.semantics",
+          "best-practice"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "image-alt",
+    "title": "Image elements do not have `[alt]` attributes",
+    "description": "Informative elements should aim for short, descriptive alternate text. Decorative elements can be ignored with an empty alt attribute. [Learn more](https://web.dev/image-alt/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-256-IMG",
+            "path": "3,HTML,1,BODY,7,DIV,1,DIV,0,DIV,1,DIV,2,DIV,0,DIV,0,DIV,5,DIV,0,DIV,0,LI,0,A,0,IMG",
+            "selector": "div.col-md-12 > li > a#mmgsublink_1 > img.img-responsive",
+            "boundingRect": {
+              "top": 727,
+              "bottom": 795,
+              "left": 163,
+              "right": 223,
+              "width": 60,
+              "height": 68
+            },
+            "snippet": "<img src=\"/images/mmg/overviews/Arctic-Antarctic-Icon-2xB.png\" class=\"img-responsive fover-image\">",
+            "nodeLabel": "div.col-md-12 > li > a#mmgsublink_1 > img.img-responsive",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-257-IMG",
+            "path": "3,HTML,1,BODY,7,DIV,1,DIV,0,DIV,1,DIV,2,DIV,0,DIV,0,DIV,5,DIV,0,DIV,1,LI,0,A,0,IMG",
+            "selector": "div.col-md-12 > li > a#mmgsublink_2 > img.img-responsive",
+            "boundingRect": {
+              "top": 727,
+              "bottom": 795,
+              "left": 250,
+              "right": 310,
+              "width": 60,
+              "height": 68
+            },
+            "snippet": "<img src=\"/images/mmg/overviews/Astronomy-Space-Icon-2xB.png\" class=\"img-responsive fover-image\">",
+            "nodeLabel": "div.col-md-12 > li > a#mmgsublink_2 > img.img-responsive",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-258-IMG",
+            "path": "3,HTML,1,BODY,7,DIV,1,DIV,0,DIV,1,DIV,2,DIV,0,DIV,0,DIV,5,DIV,0,DIV,2,LI,0,A,0,IMG",
+            "selector": "div.col-md-12 > li > a#mmgsublink_3 > img.img-responsive",
+            "boundingRect": {
+              "top": 727,
+              "bottom": 795,
+              "left": 337,
+              "right": 397,
+              "width": 60,
+              "height": 68
+            },
+            "snippet": "<img src=\"/images/mmg/overviews/Biology-Icon-2xB.png\" class=\"img-responsive fover-image\">",
+            "nodeLabel": "div.col-md-12 > li > a#mmgsublink_3 > img.img-responsive",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-259-IMG",
+            "path": "3,HTML,1,BODY,7,DIV,1,DIV,0,DIV,1,DIV,2,DIV,0,DIV,0,DIV,5,DIV,0,DIV,3,LI,0,A,0,IMG",
+            "selector": "div.col-md-12 > li > a#mmgsublink_4 > img.img-responsive",
+            "boundingRect": {
+              "top": 727,
+              "bottom": 795,
+              "left": 424,
+              "right": 484,
+              "width": 60,
+              "height": 68
+            },
+            "snippet": "<img src=\"/images/mmg/overviews/Chemistry-Icon-2xB.png\" class=\"img-responsive fover-image\">",
+            "nodeLabel": "div.col-md-12 > li > a#mmgsublink_4 > img.img-responsive",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-260-IMG",
+            "path": "3,HTML,1,BODY,7,DIV,1,DIV,0,DIV,1,DIV,2,DIV,0,DIV,0,DIV,5,DIV,0,DIV,4,LI,0,A,0,IMG",
+            "selector": "div.col-md-12 > li > a#mmgsublink_5 > img.img-responsive",
+            "boundingRect": {
+              "top": 727,
+              "bottom": 795,
+              "left": 511,
+              "right": 571,
+              "width": 60,
+              "height": 68
+            },
+            "snippet": "<img src=\"/images/mmg/overviews/Computing-Icon-2xB.png\" class=\"img-responsive fover-image\">",
+            "nodeLabel": "div.col-md-12 > li > a#mmgsublink_5 > img.img-responsive",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-261-IMG",
+            "path": "3,HTML,1,BODY,7,DIV,1,DIV,0,DIV,1,DIV,2,DIV,0,DIV,0,DIV,5,DIV,0,DIV,5,LI,0,A,0,IMG",
+            "selector": "div.col-md-12 > li > a#mmgsublink_6 > img.img-responsive",
+            "boundingRect": {
+              "top": 727,
+              "bottom": 795,
+              "left": 598,
+              "right": 658,
+              "width": 60,
+              "height": 68
+            },
+            "snippet": "<img src=\"/images/mmg/overviews/Earth-Environment-Icon-2xB.png\" class=\"img-responsive fover-image\">",
+            "nodeLabel": "div.col-md-12 > li > a#mmgsublink_6 > img.img-responsive",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-262-IMG",
+            "path": "3,HTML,1,BODY,7,DIV,1,DIV,0,DIV,1,DIV,2,DIV,0,DIV,0,DIV,5,DIV,0,DIV,6,LI,0,A,0,IMG",
+            "selector": "div.col-md-12 > li > a#mmgsublink_7 > img.img-responsive",
+            "boundingRect": {
+              "top": 727,
+              "bottom": 795,
+              "left": 684,
+              "right": 744,
+              "width": 60,
+              "height": 68
+            },
+            "snippet": "<img src=\"/images/mmg/overviews/Education-Icon-2xB.png\" class=\"img-responsive fover-image\">",
+            "nodeLabel": "div.col-md-12 > li > a#mmgsublink_7 > img.img-responsive",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-263-IMG",
+            "path": "3,HTML,1,BODY,7,DIV,1,DIV,0,DIV,1,DIV,2,DIV,0,DIV,0,DIV,5,DIV,0,DIV,7,LI,0,A,0,IMG",
+            "selector": "div.col-md-12 > li > a#mmgsublink_8 > img.img-responsive",
+            "boundingRect": {
+              "top": 727,
+              "bottom": 795,
+              "left": 771,
+              "right": 831,
+              "width": 60,
+              "height": 68
+            },
+            "snippet": "<img src=\"/images/mmg/overviews/Engineering-Icon-2xB.png\" class=\"img-responsive fover-image\">",
+            "nodeLabel": "div.col-md-12 > li > a#mmgsublink_8 > img.img-responsive",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-264-IMG",
+            "path": "3,HTML,1,BODY,7,DIV,1,DIV,0,DIV,1,DIV,2,DIV,0,DIV,0,DIV,5,DIV,0,DIV,8,LI,0,A,0,IMG",
+            "selector": "div.col-md-12 > li > a#mmgsublink_9 > img.img-responsive",
+            "boundingRect": {
+              "top": 727,
+              "bottom": 795,
+              "left": 858,
+              "right": 918,
+              "width": 60,
+              "height": 68
+            },
+            "snippet": "<img src=\"/images/mmg/overviews/Mathematics-Icon-2xB.png\" class=\"img-responsive fover-image\">",
+            "nodeLabel": "div.col-md-12 > li > a#mmgsublink_9 > img.img-responsive",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-265-IMG",
+            "path": "3,HTML,1,BODY,7,DIV,1,DIV,0,DIV,1,DIV,2,DIV,0,DIV,0,DIV,5,DIV,0,DIV,9,LI,0,A,0,IMG",
+            "selector": "div.col-md-12 > li > a#mmgsublink_10 > img.img-responsive",
+            "boundingRect": {
+              "top": 727,
+              "bottom": 795,
+              "left": 945,
+              "right": 1005,
+              "width": 60,
+              "height": 68
+            },
+            "snippet": "<img src=\"/images/mmg/overviews/Nanoscience-Icon-2xB.png\" class=\"img-responsive fover-image\">",
+            "nodeLabel": "div.col-md-12 > li > a#mmgsublink_10 > img.img-responsive",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-266-IMG",
+            "path": "3,HTML,1,BODY,7,DIV,1,DIV,0,DIV,1,DIV,2,DIV,0,DIV,0,DIV,5,DIV,0,DIV,10,LI,0,A,0,IMG",
+            "selector": "div.col-md-12 > li > a#mmgsublink_12 > img.img-responsive",
+            "boundingRect": {
+              "top": 727,
+              "bottom": 795,
+              "left": 1032,
+              "right": 1092,
+              "width": 60,
+              "height": 68
+            },
+            "snippet": "<img src=\"/images/mmg/overviews/People-Society-Icon-2xB.png\" class=\"img-responsive fover-image\">",
+            "nodeLabel": "div.col-md-12 > li > a#mmgsublink_12 > img.img-responsive",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-267-IMG",
+            "path": "3,HTML,1,BODY,7,DIV,1,DIV,0,DIV,1,DIV,2,DIV,0,DIV,0,DIV,5,DIV,0,DIV,11,LI,0,A,0,IMG",
+            "selector": "div.col-md-12 > li > a#mmgsublink_11 > img.img-responsive",
+            "boundingRect": {
+              "top": 727,
+              "bottom": 795,
+              "left": 1119,
+              "right": 1179,
+              "width": 60,
+              "height": 68
+            },
+            "snippet": "<img src=\"/images/mmg/overviews/Physics-Icon-2xB.png\" class=\"img-responsive fover-image\">",
+            "nodeLabel": "div.col-md-12 > li > a#mmgsublink_11 > img.img-responsive",
+            "explanation": "Fix any of the following:\n  Element does not have an alt attribute\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute\n  Element's default semantics were not overridden with role=\"none\" or role=\"presentation\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.text-alternatives",
+          "wcag2a",
+          "wcag111",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 12
+  },
+  {
+    "id": "link-name",
+    "title": "Links do not have a discernible name",
+    "description": "Link text (and alternate text for images, when used as links) that is discernible, unique, and focusable improves the navigation experience for screen reader users. [Learn more](https://web.dev/link-name/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-85-A",
+            "path": "3,HTML,1,BODY,7,DIV,1,DIV,0,DIV,1,DIV,2,DIV,0,DIV,0,DIV,5,DIV,0,DIV,8,LI,0,A",
+            "selector": "div#overviews > div.col-md-12 > li > a#mmgsublink_9",
+            "boundingRect": {
+              "top": 727,
+              "bottom": 795,
+              "left": 851,
+              "right": 926,
+              "width": 75,
+              "height": 68
+            },
+            "snippet": "<a href=\"index.jsp?mmg_subjects=9&amp;rt_page=y\" id=\"mmgsublink_9\">",
+            "nodeLabel": "div#overviews > div.col-md-12 > li > a#mmgsublink_9",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-87-A",
+            "path": "3,HTML,1,BODY,7,DIV,1,DIV,0,DIV,1,DIV,2,DIV,0,DIV,0,DIV,5,DIV,0,DIV,9,LI,0,A",
+            "selector": "div#overviews > div.col-md-12 > li > a#mmgsublink_10",
+            "boundingRect": {
+              "top": 727,
+              "bottom": 795,
+              "left": 938,
+              "right": 1013,
+              "width": 75,
+              "height": 68
+            },
+            "snippet": "<a href=\"index.jsp?mmg_subjects=10&amp;rt_page=y\" id=\"mmgsublink_10\">",
+            "nodeLabel": "div#overviews > div.col-md-12 > li > a#mmgsublink_10",
+            "explanation": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.name-role-value",
+          "wcag2a",
+          "wcag412",
+          "wcag244",
+          "section508",
+          "section508.22.a",
+          "ACT"
+        ]
+      }
+    },
+    "errorCount": 2
+  },
+  {
+    "id": "listitem",
+    "title": "List items (`<li>`) are not contained within `<ul>` or `<ol>` parent elements.",
+    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>` or `<ol>` to be announced properly. [Learn more](https://web.dev/listitem/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-268-LI",
+            "path": "3,HTML,1,BODY,7,DIV,1,DIV,0,DIV,1,DIV,2,DIV,0,DIV,0,DIV,5,DIV,0,DIV,0,LI",
+            "selector": "div#top > div#overviews > div.col-md-12 > li",
+            "boundingRect": {
+              "top": 727,
+              "bottom": 850,
+              "left": 156,
+              "right": 231,
+              "width": 75,
+              "height": 123
+            },
+            "snippet": "<li>",
+            "nodeLabel": "Arctic & Antarctic",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-269-LI",
+            "path": "3,HTML,1,BODY,7,DIV,1,DIV,0,DIV,1,DIV,2,DIV,0,DIV,0,DIV,5,DIV,0,DIV,1,LI",
+            "selector": "div#top > div#overviews > div.col-md-12 > li",
+            "boundingRect": {
+              "top": 727,
+              "bottom": 850,
+              "left": 242,
+              "right": 317,
+              "width": 75,
+              "height": 123
+            },
+            "snippet": "<li>",
+            "nodeLabel": "Astronomy & Space",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-270-LI",
+            "path": "3,HTML,1,BODY,7,DIV,1,DIV,0,DIV,1,DIV,2,DIV,0,DIV,0,DIV,5,DIV,0,DIV,2,LI",
+            "selector": "div#top > div#overviews > div.col-md-12 > li",
+            "boundingRect": {
+              "top": 727,
+              "bottom": 830,
+              "left": 329,
+              "right": 404,
+              "width": 75,
+              "height": 103
+            },
+            "snippet": "<li>",
+            "nodeLabel": "Biology",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-271-LI",
+            "path": "3,HTML,1,BODY,7,DIV,1,DIV,0,DIV,1,DIV,2,DIV,0,DIV,0,DIV,5,DIV,0,DIV,3,LI",
+            "selector": "div#top > div#overviews > div.col-md-12 > li",
+            "boundingRect": {
+              "top": 727,
+              "bottom": 850,
+              "left": 416,
+              "right": 491,
+              "width": 75,
+              "height": 123
+            },
+            "snippet": "<li>",
+            "nodeLabel": "Chemistry & Materials",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-272-LI",
+            "path": "3,HTML,1,BODY,7,DIV,1,DIV,0,DIV,1,DIV,2,DIV,0,DIV,0,DIV,5,DIV,0,DIV,4,LI",
+            "selector": "div#top > div#overviews > div.col-md-12 > li",
+            "boundingRect": {
+              "top": 727,
+              "bottom": 830,
+              "left": 503,
+              "right": 578,
+              "width": 75,
+              "height": 103
+            },
+            "snippet": "<li>",
+            "nodeLabel": "Computing",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-273-LI",
+            "path": "3,HTML,1,BODY,7,DIV,1,DIV,0,DIV,1,DIV,2,DIV,0,DIV,0,DIV,5,DIV,0,DIV,5,LI",
+            "selector": "div#top > div#overviews > div.col-md-12 > li",
+            "boundingRect": {
+              "top": 727,
+              "bottom": 850,
+              "left": 590,
+              "right": 665,
+              "width": 75,
+              "height": 123
+            },
+            "snippet": "<li>",
+            "nodeLabel": "Earth & Environment",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-274-LI",
+            "path": "3,HTML,1,BODY,7,DIV,1,DIV,0,DIV,1,DIV,2,DIV,0,DIV,0,DIV,5,DIV,0,DIV,6,LI",
+            "selector": "div#top > div#overviews > div.col-md-12 > li",
+            "boundingRect": {
+              "top": 727,
+              "bottom": 830,
+              "left": 677,
+              "right": 752,
+              "width": 75,
+              "height": 103
+            },
+            "snippet": "<li>",
+            "nodeLabel": "Education",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-275-LI",
+            "path": "3,HTML,1,BODY,7,DIV,1,DIV,0,DIV,1,DIV,2,DIV,0,DIV,0,DIV,5,DIV,0,DIV,7,LI",
+            "selector": "div#top > div#overviews > div.col-md-12 > li",
+            "boundingRect": {
+              "top": 727,
+              "bottom": 830,
+              "left": 764,
+              "right": 839,
+              "width": 75,
+              "height": 103
+            },
+            "snippet": "<li>",
+            "nodeLabel": "Engineering",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-276-LI",
+            "path": "3,HTML,1,BODY,7,DIV,1,DIV,0,DIV,1,DIV,2,DIV,0,DIV,0,DIV,5,DIV,0,DIV,8,LI",
+            "selector": "div#top > div#overviews > div.col-md-12 > li",
+            "boundingRect": {
+              "top": 727,
+              "bottom": 830,
+              "left": 851,
+              "right": 926,
+              "width": 75,
+              "height": 103
+            },
+            "snippet": "<li>",
+            "nodeLabel": "Mathematics",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-277-LI",
+            "path": "3,HTML,1,BODY,7,DIV,1,DIV,0,DIV,1,DIV,2,DIV,0,DIV,0,DIV,5,DIV,0,DIV,9,LI",
+            "selector": "div#top > div#overviews > div.col-md-12 > li",
+            "boundingRect": {
+              "top": 727,
+              "bottom": 830,
+              "left": 938,
+              "right": 1013,
+              "width": 75,
+              "height": 103
+            },
+            "snippet": "<li>",
+            "nodeLabel": "Nanoscience",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-278-LI",
+            "path": "3,HTML,1,BODY,7,DIV,1,DIV,0,DIV,1,DIV,2,DIV,0,DIV,0,DIV,5,DIV,0,DIV,10,LI",
+            "selector": "div#top > div#overviews > div.col-md-12 > li",
+            "boundingRect": {
+              "top": 727,
+              "bottom": 850,
+              "left": 1025,
+              "right": 1100,
+              "width": 75,
+              "height": 123
+            },
+            "snippet": "<li>",
+            "nodeLabel": "People & Society",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-279-LI",
+            "path": "3,HTML,1,BODY,7,DIV,1,DIV,0,DIV,1,DIV,2,DIV,0,DIV,0,DIV,5,DIV,0,DIV,11,LI",
+            "selector": "div#top > div#overviews > div.col-md-12 > li",
+            "boundingRect": {
+              "top": 727,
+              "bottom": 830,
+              "left": 1111,
+              "right": 1186,
+              "width": 75,
+              "height": 103
+            },
+            "snippet": "<li>",
+            "nodeLabel": "Physics",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 12
+  }
+]

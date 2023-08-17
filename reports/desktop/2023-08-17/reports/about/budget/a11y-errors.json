@@ -1,0 +1,257 @@
+[
+  {
+    "id": "aria-required-children",
+    "title": "Elements with an ARIA `[role]` that require children to contain a specific `[role]` are missing some or all of those required children.",
+    "description": "Some ARIA parent roles must contain specific child roles to perform their intended accessibility functions. [Learn more](https://web.dev/aria-required-children/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-259-UL",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,4,UL",
+            "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > ul.dropdown-list",
+            "boundingRect": {
+              "top": 346,
+              "bottom": 611,
+              "left": 65,
+              "right": 368,
+              "width": 303,
+              "height": 265
+            },
+            "snippet": "<ul class=\"dropdown-list\" role=\"menu\">",
+            "nodeLabel": "Budget\nEvaluation and Assessment Capability\nGPRA Modernization Act of 2010\nPerf…",
+            "explanation": "Fix any of the following:\n  Required ARIA children role not present: group, menuitemradio, menuitem, menuitemcheckbox"
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "critical",
+        "tags": [
+          "cat.aria",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "list",
+    "title": "Lists do not contain only `<li>` elements and script supporting elements (`<script>` and `<template>`).",
+    "description": "Screen readers have a specific way of announcing lists. Ensuring proper list structure aids screen reader output. [Learn more](https://web.dev/list/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-260-UL",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL",
+            "selector": "div.row > div#leftnavdividcontainer > div#leftnavdivid > ul.nav",
+            "boundingRect": {
+              "top": 162,
+              "bottom": 1144,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 982
+            },
+            "snippet": "<ul class=\"nav nav-stacked left-nav\">",
+            "nodeLabel": "About NSF\nAbout\nBroadening Participation/Diversity\nBudget, Performance and Fina…",
+            "explanation": "Fix all of the following:\n  List element has direct children that are not allowed inside <li> elements"
+          },
+          "subItems": {
+            "type": "subitems",
+            "items": [
+              {
+                "relatedNode": {
+                  "type": "node",
+                  "lhId": "11-259-UL",
+                  "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,4,UL",
+                  "selector": "div#leftnavdividcontainer > div#leftnavdivid > ul.nav > ul.dropdown-list",
+                  "boundingRect": {
+                    "top": 346,
+                    "bottom": 611,
+                    "left": 65,
+                    "right": 368,
+                    "width": 303,
+                    "height": 265
+                  },
+                  "snippet": "<ul class=\"dropdown-list\" role=\"menu\">",
+                  "nodeLabel": "Budget\nEvaluation and Assessment Capability\nGPRA Modernization Act of 2010\nPerf…"
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 1
+  },
+  {
+    "id": "listitem",
+    "title": "List items (`<li>`) are not contained within `<ul>` or `<ol>` parent elements.",
+    "description": "Screen readers require list items (`<li>`) to be contained within a parent `<ul>` or `<ol>` to be announced properly. [Learn more](https://web.dev/listitem/).",
+    "score": 0,
+    "scoreDisplayMode": "binary",
+    "details": {
+      "type": "table",
+      "headings": [
+        {
+          "key": "node",
+          "itemType": "node",
+          "subItemsHeading": {
+            "key": "relatedNode",
+            "itemType": "node"
+          },
+          "text": "Failing Elements"
+        }
+      ],
+      "items": [
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-261-LI",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,4,UL,0,LI",
+            "selector": "div#leftnavdivid > ul.nav > ul.dropdown-list > li.current",
+            "boundingRect": {
+              "top": 346,
+              "bottom": 387,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 41
+            },
+            "snippet": "<li class=\"current\">",
+            "nodeLabel": "Budget",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-262-LI",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,4,UL,1,LI",
+            "selector": "div#leftnavdivid > ul.nav > ul.dropdown-list > li",
+            "boundingRect": {
+              "top": 387,
+              "bottom": 448,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 61
+            },
+            "snippet": "<li>",
+            "nodeLabel": "Evaluation and Assessment Capability",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-263-LI",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,4,UL,2,LI",
+            "selector": "div#leftnavdivid > ul.nav > ul.dropdown-list > li",
+            "boundingRect": {
+              "top": 448,
+              "bottom": 489,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 41
+            },
+            "snippet": "<li>",
+            "nodeLabel": "GPRA Modernization Act of 2010",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-264-LI",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,4,UL,3,LI",
+            "selector": "div#leftnavdivid > ul.nav > ul.dropdown-list > li",
+            "boundingRect": {
+              "top": 489,
+              "bottom": 550,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 61
+            },
+            "snippet": "<li>",
+            "nodeLabel": "Performance and Financial Reports",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        },
+        {
+          "node": {
+            "type": "node",
+            "lhId": "11-265-LI",
+            "path": "1,HTML,2,BODY,7,DIV,1,DIV,0,DIV,0,DIV,0,UL,4,UL,4,LI",
+            "selector": "div#leftnavdivid > ul.nav > ul.dropdown-list > li",
+            "boundingRect": {
+              "top": 550,
+              "bottom": 611,
+              "left": 105,
+              "right": 368,
+              "width": 263,
+              "height": 61
+            },
+            "snippet": "<li>",
+            "nodeLabel": "Federal Employee Viewpoint Survey (FEVS) Results",
+            "explanation": "Fix any of the following:\n  List item does not have a <ul>, <ol> parent element without a role, or a role=\"list\""
+          }
+        }
+      ],
+      "debugData": {
+        "type": "debugdata",
+        "impact": "serious",
+        "tags": [
+          "cat.structure",
+          "wcag2a",
+          "wcag131"
+        ]
+      }
+    },
+    "errorCount": 5
+  }
+]
